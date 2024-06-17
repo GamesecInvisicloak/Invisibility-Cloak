@@ -1,3 +1,4 @@
+<!-- ![](assets/logo.png?v=1&type=image) -->
 <h2 style="text-align: center;">Invisibility Cloak: Proactive Defense Against Visual Game Cheating</h2>
 
 <br>
@@ -29,7 +30,7 @@ You can explore the demos of the Invisibility Cloak at https://inviscloak.github
 
 ## 📘 Introduction
 
-The repository introduces the *Invisibility Cloak*, a project designed to create Cloaks that provide protection to game scene samples by adding adversarial noise. 
+The repository introduces the *Invisibility Cloak*, a project designed to create Cloaks that provide protection to game scene samples by adding adversarial noise. This artifact demonstrates a subset of the experimental data and samples described in the paper. While the same operations can be applied to CF, this artifact only showcases the demos and experiments related to CS2.
 
 ## 🔧Getting Started
 
@@ -37,11 +38,39 @@ The repository introduces the *Invisibility Cloak*, a project designed to create
 
 Before you begin, ensure you have met the following requirements:
 
-* Python 3.8 or higher
-* Conda (recommended) or Python virtual environment
-* GPU with CUDA support (optional but recommended for faster processing)
+* Python 3.8 or higher 
+* Conda (recommended) or Python virtual environment 
+* GPU with CUDA 12.5.0 support (required if using Docker) or other CUDA versions (if not using Docker)
 
-### Installation
+### Using Docker
+
+We provide a pre-configured Docker image file. Ensure you have Docker installed on your system.
+
+1. **Load and run the Docker container:**
+
+   Download the Docker image file `invisicloak_configured.tar` and load it using the following command:
+
+   ```bash
+   docker load -i invisicloak_configured.tar
+   ```
+
+   Then, run the Docker container with GPU support:
+
+   ```bash
+   docker run -it --rm --gpus all invisicloak:configured
+   ```
+
+1. **Activate the conda environment:**
+
+   The Docker container already includes CUDA 12.5.0 and the *invisicloak* conda environment pre-installed. To activate the environment, run:
+
+   ```bash
+   conda activate invisicloak
+   ```
+
+### Without Docker
+
+If you prefer not to use Docker, follow these steps to set up the environment manually:
 
 1. **Create and activate a conda environment:**
     ```bash
@@ -73,14 +102,93 @@ python get_cloak.py --scenario stand --visualize_gif 1
 
 ### Command Line Arguments
 
-- `--game`: Dataset to use. Default is 'cs2'.
-- `--n_iter`: Number of iterations for the attack. Default is 5.
-- `--lr`: Learning rate for the optimizer. Default is 0.005.
-- `--epsilon`: Attack strength. Default is 8.
-- `--local_model`: Local model to use ('yolov5n', 'yolov5s', 'yolov5m'). Default is 'yolov5n'.
-- `--target_model`: Target cheating model to defend ('yolov5n', 'yolov5s', 'yolov5m'). Default is 'yolov5n'.
-- `--gpu`: GPU device to use. Default is '0'.
-- `--use_global`: Whether to use global noise (1: yes, 0: no). Default is 1.
-- `--visualize_gif`: Whether to visualize the GIF (1: yes, 0: no). Default is 0.
-- `--scenario`: CS2 demo scenario to use. Default is 'cover'. Options include '2people', 'back', 'cover', 'fire', 'flash', 'football', 'halfbody', 'hited', 'jump', 'knife', 'op', 'props', 'reload', 'run', 'side', 'smoke', 'stand', 'usingprop'.
+- `--n_iter`: 
+  - Description: Number of iterations.
+  - Default: `5`
+  - Type: `int`
 
+- `--lr`: 
+  - Description: Learning rate for the optimizer.
+  - Default: `0.005`
+  - Type: `float`
+
+- `--epsilon`: 
+  - Description: The L_infinity norm constraint, input value 8 represents 8/255.
+  - Default: `8`
+  - Type: `int`
+
+- `--local_model`: 
+  - Description: Local model to use. Choices are 'yolov5n', 'yolov5s', 'yolov5m'.
+  - Default: `yolov5n`
+  - Type: `str`
+
+- `--target_model`: 
+  - Description: Target cheating model to defend. Choices are 'yolov5n', 'yolov5s', 'yolov5m'.
+  - Default: `yolov5n`
+  - Type: `str`
+
+- `--gpu`: 
+  - Description: GPU device to use for computation.
+  - Default: `0`
+  - Type: `str`
+
+- `--use_universal_cloak`: 
+  - Description: Flag to determine whether to use Universal Cloak (1: yes, 0: no).
+  - Default: `1`
+  - Type: `int`
+
+- `--visualize_gif`: 
+  - Description: Flag to determine whether to generate a GIF (1: yes, 0: no).
+  - Default: `0`
+  - Type: `int`
+
+- `--scenario`: 
+  - Description: CS2 demo scenario to use. Options include:
+    - `2people`: Scenario with two people present.
+    - `back`: Scenario where the character is facing backwards.
+    - `cover`: Scenario where the character is behind cover.
+    - `fire`: Scenario where the character is firing a weapon.
+    - `flash`: Scenario involving a flash effect.
+    - `football`: Scenario with a football next to the character.
+    - `halfbody`: Scenario showing half of the character's body.
+    - `hited`: Scenario where the character is hit.
+    - `jump`: Scenario where the character is jumping.
+    - `knife`: Scenario where the character is holding a knife.
+    - `op`: Scenario where the character is holding a sniper.
+    - `props`: Scenario where the character is hurt by a prop.
+    - `reload`: Scenario where the character is reloading a weapon.
+    - `run`: Scenario where the character is running.
+    - `side`: Scenario showing a side view of the character.
+    - `smoke`: Scenario involving smoke.
+    - `stand`: Scenario where the character is standing.
+    - `usingprop`: Scenario where the character is using a prop.
+  - Default: `stand`
+  - Type: `str`
+
+### 📁 Checking the Results
+
+The results can be found in the `result` directory. The structure of the `result` directory is as follows:
+
+```markdown
+.
+└── result/
+    ├── log/
+    │   └──cs2
+    │      └──logfile
+    └── visualization
+        └──cs2_demo
+            ├── 2people
+            │   ├── attack
+            │   ├── gif
+            │   └── gt
+            ├── back
+            │   ├── attack
+            │   ├── gif
+            │   └── gt
+            └── other scenarios...
+```
+
+- **log/cs2/logfile**: Contains logs of the experiments, including details of the defense performance against visual aimbots.
+- **visualization/cs2_demo/scenarios/attack**: Contains images showing the detection results by the target cheating model on samples protected by the Cloak.
+- **visualization/cs2_demo/scenarios/gif**: Contains generated GIFs that simulate actual dynamic game scenes with the Cloak protection.
+- **visualization/cs2_demo/scenarios/gt**: Contains images showing the detection results by the target cheating model on samples without the Cloak protection.

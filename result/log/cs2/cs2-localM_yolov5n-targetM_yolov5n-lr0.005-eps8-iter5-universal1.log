@@ -1,3 +1,1226 @@
-2024-06-16 12:02:38.007 | INFO     | __main__:main:221 - Attack Begin
-2024-06-16 12:02:38.008 | INFO     | __main__:main:223 - universal_cloak/cs2/yolov5n_yolov5s_yolov5m/Best-Succ-0.84-BS-16-LR-0.001.pt
-2024-06-16 12:02:38.008 | INFO     | __main__:main:227 - len dataset 375
+2024-06-17 13:13:22.703 | INFO     | __main__:main:243 - Attack Begin
+2024-06-17 13:13:22.703 | INFO     | __main__:main:245 - universal_cloak/cs2/yolov5n_yolov5s_yolov5m/Best-Succ-0.84-BS-16-LR-0.001.pt
+2024-06-17 13:13:22.703 | INFO     | __main__:main:249 - len dataset 610
+2024-06-17 13:13:23.056 | INFO     | __main__:main:283 - Index:0 LSucc:1 TSucc:1 Single_Time:0.137 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.058 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.137 FPS:7.302 AvgSSIM: 0.721 
+2024-06-17 13:13:23.286 | INFO     | __main__:main:283 - Index:1 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.286 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.071 FPS:14.039 AvgSSIM: 0.721 
+2024-06-17 13:13:23.331 | INFO     | __main__:main:283 - Index:2 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.332 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.049 FPS:20.325 AvgSSIM: 0.721 
+2024-06-17 13:13:23.379 | INFO     | __main__:main:283 - Index:3 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.379 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.038 FPS:26.149 AvgSSIM: 0.721 
+2024-06-17 13:13:23.422 | INFO     | __main__:main:283 - Index:4 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.423 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.032 FPS:31.633 AvgSSIM: 0.721 
+2024-06-17 13:13:23.461 | INFO     | __main__:main:283 - Index:5 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.462 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.027 FPS:36.772 AvgSSIM: 0.721 
+2024-06-17 13:13:23.502 | INFO     | __main__:main:283 - Index:6 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.503 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.024 FPS:41.579 AvgSSIM: 0.721 
+2024-06-17 13:13:23.544 | INFO     | __main__:main:283 - Index:7 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.544 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.022 FPS:46.070 AvgSSIM: 0.721 
+2024-06-17 13:13:23.588 | INFO     | __main__:main:283 - Index:8 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.588 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.020 FPS:50.260 AvgSSIM: 0.721 
+2024-06-17 13:13:23.643 | INFO     | __main__:main:283 - Index:9 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.644 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.019 FPS:54.040 AvgSSIM: 0.721 
+2024-06-17 13:13:23.694 | INFO     | __main__:main:283 - Index:10 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.695 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.017 FPS:57.574 AvgSSIM: 0.721 
+2024-06-17 13:13:23.741 | INFO     | __main__:main:283 - Index:11 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.741 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.016 FPS:60.904 AvgSSIM: 0.721 
+2024-06-17 13:13:23.794 | INFO     | __main__:main:283 - Index:12 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.795 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.016 FPS:64.041 AvgSSIM: 0.721 
+2024-06-17 13:13:23.841 | INFO     | __main__:main:283 - Index:13 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.841 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.015 FPS:66.986 AvgSSIM: 0.721 
+2024-06-17 13:13:23.893 | INFO     | __main__:main:283 - Index:14 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.894 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.014 FPS:69.771 AvgSSIM: 0.721 
+2024-06-17 13:13:23.944 | INFO     | __main__:main:283 - Index:15 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:23.944 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.014 FPS:72.402 AvgSSIM: 0.721 
+2024-06-17 13:13:24.001 | INFO     | __main__:main:283 - Index:16 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.002 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.013 FPS:74.888 AvgSSIM: 0.721 
+2024-06-17 13:13:24.055 | INFO     | __main__:main:283 - Index:17 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.055 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.013 FPS:77.239 AvgSSIM: 0.721 
+2024-06-17 13:13:24.103 | INFO     | __main__:main:283 - Index:18 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.103 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.013 FPS:79.523 AvgSSIM: 0.721 
+2024-06-17 13:13:24.147 | INFO     | __main__:main:283 - Index:19 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.147 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.012 FPS:81.934 AvgSSIM: 0.721 
+2024-06-17 13:13:24.190 | INFO     | __main__:main:283 - Index:20 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.190 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.012 FPS:84.294 AvgSSIM: 0.721 
+2024-06-17 13:13:24.231 | INFO     | __main__:main:283 - Index:21 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.231 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.012 FPS:86.562 AvgSSIM: 0.721 
+2024-06-17 13:13:24.273 | INFO     | __main__:main:283 - Index:22 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.274 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.011 FPS:88.621 AvgSSIM: 0.721 
+2024-06-17 13:13:24.318 | INFO     | __main__:main:283 - Index:23 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.319 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.011 FPS:90.679 AvgSSIM: 0.721 
+2024-06-17 13:13:24.365 | INFO     | __main__:main:283 - Index:24 LSucc:1 TSucc:1 Single_Time:0.005 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.366 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.011 FPS:92.540 AvgSSIM: 0.721 
+2024-06-17 13:13:24.411 | INFO     | __main__:main:283 - Index:25 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.412 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.011 FPS:94.185 AvgSSIM: 0.721 
+2024-06-17 13:13:24.461 | INFO     | __main__:main:283 - Index:26 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.462 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:95.779 AvgSSIM: 0.721 
+2024-06-17 13:13:24.516 | INFO     | __main__:main:283 - Index:27 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.517 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:97.297 AvgSSIM: 0.721 
+2024-06-17 13:13:24.570 | INFO     | __main__:main:283 - Index:28 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.570 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:98.734 AvgSSIM: 0.721 
+2024-06-17 13:13:24.620 | INFO     | __main__:main:283 - Index:29 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.621 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:100.136 AvgSSIM: 0.721 
+2024-06-17 13:13:24.667 | INFO     | __main__:main:283 - Index:30 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.667 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:101.284 AvgSSIM: 0.721 
+2024-06-17 13:13:24.719 | INFO     | __main__:main:283 - Index:31 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.720 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:102.590 AvgSSIM: 0.721 
+2024-06-17 13:13:24.770 | INFO     | __main__:main:283 - Index:32 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.770 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:103.844 AvgSSIM: 0.721 
+2024-06-17 13:13:24.818 | INFO     | __main__:main:283 - Index:33 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.818 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.010 FPS:105.055 AvgSSIM: 0.721 
+2024-06-17 13:13:24.869 | INFO     | __main__:main:283 - Index:34 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.869 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.215 AvgSSIM: 0.721 
+2024-06-17 13:13:24.915 | INFO     | __main__:main:283 - Index:35 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:24.915 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:107.332 AvgSSIM: 0.721 
+2024-06-17 13:13:24.960 | INFO     | __main__:main:283 - Index:36 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.721 
+2024-06-17 13:13:24.961 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:108.424 AvgSSIM: 0.721 
+2024-06-17 13:13:25.013 | INFO     | __main__:main:283 - Index:37 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.013 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:109.483 AvgSSIM: 0.721 
+2024-06-17 13:13:25.062 | INFO     | __main__:main:283 - Index:38 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.063 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:110.414 AvgSSIM: 0.721 
+2024-06-17 13:13:25.107 | INFO     | __main__:main:283 - Index:39 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.108 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:111.393 AvgSSIM: 0.721 
+2024-06-17 13:13:25.154 | INFO     | __main__:main:283 - Index:40 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.155 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:112.358 AvgSSIM: 0.721 
+2024-06-17 13:13:25.207 | INFO     | __main__:main:283 - Index:41 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.207 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:113.295 AvgSSIM: 0.721 
+2024-06-17 13:13:25.253 | INFO     | __main__:main:283 - Index:42 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.254 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:114.200 AvgSSIM: 0.721 
+2024-06-17 13:13:25.303 | INFO     | __main__:main:283 - Index:43 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.304 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:115.069 AvgSSIM: 0.721 
+2024-06-17 13:13:25.348 | INFO     | __main__:main:283 - Index:44 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.348 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:115.916 AvgSSIM: 0.721 
+2024-06-17 13:13:25.400 | INFO     | __main__:main:283 - Index:45 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.401 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:116.747 AvgSSIM: 0.721 
+2024-06-17 13:13:25.445 | INFO     | __main__:main:283 - Index:46 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.445 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:117.552 AvgSSIM: 0.721 
+2024-06-17 13:13:25.497 | INFO     | __main__:main:283 - Index:47 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.497 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:118.340 AvgSSIM: 0.721 
+2024-06-17 13:13:25.551 | INFO     | __main__:main:283 - Index:48 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.722 
+2024-06-17 13:13:25.551 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:119.091 AvgSSIM: 0.721 
+2024-06-17 13:13:25.598 | INFO     | __main__:main:283 - Index:49 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.723 
+2024-06-17 13:13:25.598 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:119.717 AvgSSIM: 0.721 
+2024-06-17 13:13:25.651 | INFO     | __main__:main:283 - Index:50 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.725 
+2024-06-17 13:13:25.652 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:120.423 AvgSSIM: 0.721 
+2024-06-17 13:13:25.702 | INFO     | __main__:main:283 - Index:51 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.726 
+2024-06-17 13:13:25.703 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:121.105 AvgSSIM: 0.722 
+2024-06-17 13:13:25.753 | INFO     | __main__:main:283 - Index:52 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.727 
+2024-06-17 13:13:25.753 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:121.776 AvgSSIM: 0.722 
+2024-06-17 13:13:25.804 | INFO     | __main__:main:283 - Index:53 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.728 
+2024-06-17 13:13:25.805 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:122.419 AvgSSIM: 0.722 
+2024-06-17 13:13:25.850 | INFO     | __main__:main:283 - Index:54 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.729 
+2024-06-17 13:13:25.851 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:123.045 AvgSSIM: 0.722 
+2024-06-17 13:13:25.901 | INFO     | __main__:main:283 - Index:55 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.733 
+2024-06-17 13:13:25.902 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:123.662 AvgSSIM: 0.722 
+2024-06-17 13:13:25.951 | INFO     | __main__:main:283 - Index:56 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.736 
+2024-06-17 13:13:25.952 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:124.265 AvgSSIM: 0.722 
+2024-06-17 13:13:26.006 | INFO     | __main__:main:283 - Index:57 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.737 
+2024-06-17 13:13:26.006 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:124.838 AvgSSIM: 0.723 
+2024-06-17 13:13:26.056 | INFO     | __main__:main:283 - Index:58 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.739 
+2024-06-17 13:13:26.057 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:125.401 AvgSSIM: 0.723 
+2024-06-17 13:13:26.107 | INFO     | __main__:main:283 - Index:59 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.743 
+2024-06-17 13:13:26.107 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:125.897 AvgSSIM: 0.723 
+2024-06-17 13:13:26.159 | INFO     | __main__:main:283 - Index:60 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.745 
+2024-06-17 13:13:26.159 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:126.330 AvgSSIM: 0.724 
+2024-06-17 13:13:26.207 | INFO     | __main__:main:283 - Index:61 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.746 
+2024-06-17 13:13:26.208 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:126.782 AvgSSIM: 0.724 
+2024-06-17 13:13:26.265 | INFO     | __main__:main:283 - Index:62 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.746 
+2024-06-17 13:13:26.266 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:127.232 AvgSSIM: 0.724 
+2024-06-17 13:13:26.315 | INFO     | __main__:main:283 - Index:63 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.746 
+2024-06-17 13:13:26.316 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:127.663 AvgSSIM: 0.725 
+2024-06-17 13:13:26.366 | INFO     | __main__:main:283 - Index:64 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.749 
+2024-06-17 13:13:26.366 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:128.088 AvgSSIM: 0.725 
+2024-06-17 13:13:26.420 | INFO     | __main__:main:283 - Index:65 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.749 
+2024-06-17 13:13:26.421 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:128.515 AvgSSIM: 0.725 
+2024-06-17 13:13:26.470 | INFO     | __main__:main:283 - Index:66 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.749 
+2024-06-17 13:13:26.471 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:128.928 AvgSSIM: 0.726 
+2024-06-17 13:13:26.529 | INFO     | __main__:main:283 - Index:67 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.749 
+2024-06-17 13:13:26.530 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:129.249 AvgSSIM: 0.726 
+2024-06-17 13:13:26.577 | INFO     | __main__:main:283 - Index:68 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.578 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:129.692 AvgSSIM: 0.726 
+2024-06-17 13:13:26.631 | INFO     | __main__:main:283 - Index:69 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.632 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:130.070 AvgSSIM: 0.727 
+2024-06-17 13:13:26.684 | INFO     | __main__:main:283 - Index:70 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.685 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:130.445 AvgSSIM: 0.727 
+2024-06-17 13:13:26.732 | INFO     | __main__:main:283 - Index:71 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.733 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:130.802 AvgSSIM: 0.727 
+2024-06-17 13:13:26.786 | INFO     | __main__:main:283 - Index:72 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.787 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:131.168 AvgSSIM: 0.728 
+2024-06-17 13:13:26.835 | INFO     | __main__:main:283 - Index:73 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.835 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:131.512 AvgSSIM: 0.728 
+2024-06-17 13:13:26.884 | INFO     | __main__:main:283 - Index:74 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.884 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:131.897 AvgSSIM: 0.728 
+2024-06-17 13:13:26.936 | INFO     | __main__:main:283 - Index:75 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.937 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:132.274 AvgSSIM: 0.729 
+2024-06-17 13:13:26.988 | INFO     | __main__:main:283 - Index:76 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:26.989 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:132.645 AvgSSIM: 0.729 
+2024-06-17 13:13:27.038 | INFO     | __main__:main:283 - Index:77 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:27.038 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:132.996 AvgSSIM: 0.729 
+2024-06-17 13:13:27.085 | INFO     | __main__:main:283 - Index:78 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:27.086 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:133.354 AvgSSIM: 0.729 
+2024-06-17 13:13:27.134 | INFO     | __main__:main:283 - Index:79 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:27.134 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:133.713 AvgSSIM: 0.730 
+2024-06-17 13:13:27.180 | INFO     | __main__:main:283 - Index:80 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:27.181 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:134.069 AvgSSIM: 0.730 
+2024-06-17 13:13:27.235 | INFO     | __main__:main:283 - Index:81 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:27.235 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:134.374 AvgSSIM: 0.730 
+2024-06-17 13:13:27.284 | INFO     | __main__:main:283 - Index:82 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.751 
+2024-06-17 13:13:27.285 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:134.705 AvgSSIM: 0.730 
+2024-06-17 13:13:27.339 | INFO     | __main__:main:283 - Index:83 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.751 
+2024-06-17 13:13:27.340 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:135.019 AvgSSIM: 0.731 
+2024-06-17 13:13:27.387 | INFO     | __main__:main:283 - Index:84 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.752 
+2024-06-17 13:13:27.387 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:135.328 AvgSSIM: 0.731 
+2024-06-17 13:13:27.433 | INFO     | __main__:main:283 - Index:85 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:27.433 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:135.639 AvgSSIM: 0.731 
+2024-06-17 13:13:27.484 | INFO     | __main__:main:283 - Index:86 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.754 
+2024-06-17 13:13:27.485 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:135.950 AvgSSIM: 0.731 
+2024-06-17 13:13:27.531 | INFO     | __main__:main:283 - Index:87 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.754 
+2024-06-17 13:13:27.531 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:136.249 AvgSSIM: 0.732 
+2024-06-17 13:13:27.585 | INFO     | __main__:main:283 - Index:88 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.755 
+2024-06-17 13:13:27.586 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:136.543 AvgSSIM: 0.732 
+2024-06-17 13:13:27.636 | INFO     | __main__:main:283 - Index:89 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.755 
+2024-06-17 13:13:27.637 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:136.819 AvgSSIM: 0.732 
+2024-06-17 13:13:27.686 | INFO     | __main__:main:283 - Index:90 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.755 
+2024-06-17 13:13:27.686 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:137.068 AvgSSIM: 0.732 
+2024-06-17 13:13:27.736 | INFO     | __main__:main:283 - Index:91 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:27.737 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:137.350 AvgSSIM: 0.733 
+2024-06-17 13:13:27.788 | INFO     | __main__:main:283 - Index:92 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.749 
+2024-06-17 13:13:27.788 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:137.586 AvgSSIM: 0.733 
+2024-06-17 13:13:27.834 | INFO     | __main__:main:283 - Index:93 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.746 
+2024-06-17 13:13:27.834 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:137.850 AvgSSIM: 0.733 
+2024-06-17 13:13:27.882 | INFO     | __main__:main:283 - Index:94 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.745 
+2024-06-17 13:13:27.883 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.085 AvgSSIM: 0.733 
+2024-06-17 13:13:27.936 | INFO     | __main__:main:283 - Index:95 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.745 
+2024-06-17 13:13:27.936 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.339 AvgSSIM: 0.733 
+2024-06-17 13:13:27.984 | INFO     | __main__:main:283 - Index:96 LSucc:1 TSucc:1 Single_Time:0.007 Query:1 SSIM: 0.745 
+2024-06-17 13:13:27.985 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.468 AvgSSIM: 0.733 
+2024-06-17 13:13:28.034 | INFO     | __main__:main:283 - Index:97 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.744 
+2024-06-17 13:13:28.035 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.683 AvgSSIM: 0.733 
+2024-06-17 13:13:28.089 | INFO     | __main__:main:283 - Index:98 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.744 
+2024-06-17 13:13:28.090 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.932 AvgSSIM: 0.734 
+2024-06-17 13:13:28.137 | INFO     | __main__:main:283 - Index:99 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.744 
+2024-06-17 13:13:28.138 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.178 AvgSSIM: 0.734 
+2024-06-17 13:13:28.193 | INFO     | __main__:main:283 - Index:100 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.743 
+2024-06-17 13:13:28.194 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.385 AvgSSIM: 0.734 
+2024-06-17 13:13:28.244 | INFO     | __main__:main:283 - Index:101 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.743 
+2024-06-17 13:13:28.245 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.595 AvgSSIM: 0.734 
+2024-06-17 13:13:28.301 | INFO     | __main__:main:283 - Index:102 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.743 
+2024-06-17 13:13:28.302 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.729 AvgSSIM: 0.734 
+2024-06-17 13:13:28.350 | INFO     | __main__:main:283 - Index:103 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.743 
+2024-06-17 13:13:28.351 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.927 AvgSSIM: 0.734 
+2024-06-17 13:13:28.402 | INFO     | __main__:main:283 - Index:104 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.742 
+2024-06-17 13:13:28.402 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.124 AvgSSIM: 0.734 
+2024-06-17 13:13:28.457 | INFO     | __main__:main:283 - Index:105 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.742 
+2024-06-17 13:13:28.458 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.318 AvgSSIM: 0.734 
+2024-06-17 13:13:28.508 | INFO     | __main__:main:283 - Index:106 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.740 
+2024-06-17 13:13:28.509 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.506 AvgSSIM: 0.734 
+2024-06-17 13:13:28.563 | INFO     | __main__:main:283 - Index:107 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.739 
+2024-06-17 13:13:28.564 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.725 AvgSSIM: 0.734 
+2024-06-17 13:13:28.612 | INFO     | __main__:main:283 - Index:108 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.739 
+2024-06-17 13:13:28.612 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.901 AvgSSIM: 0.734 
+2024-06-17 13:13:28.668 | INFO     | __main__:main:283 - Index:109 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.742 
+2024-06-17 13:13:28.669 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.114 AvgSSIM: 0.734 
+2024-06-17 13:13:28.721 | INFO     | __main__:main:283 - Index:110 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.746 
+2024-06-17 13:13:28.721 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.318 AvgSSIM: 0.734 
+2024-06-17 13:13:28.767 | INFO     | __main__:main:283 - Index:111 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.749 
+2024-06-17 13:13:28.768 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.515 AvgSSIM: 0.735 
+2024-06-17 13:13:28.816 | INFO     | __main__:main:283 - Index:112 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.752 
+2024-06-17 13:13:28.817 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.713 AvgSSIM: 0.735 
+2024-06-17 13:13:28.871 | INFO     | __main__:main:283 - Index:113 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:28.872 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.881 AvgSSIM: 0.735 
+2024-06-17 13:13:28.919 | INFO     | __main__:main:283 - Index:114 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:28.919 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.078 AvgSSIM: 0.735 
+2024-06-17 13:13:28.973 | INFO     | __main__:main:283 - Index:115 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:28.974 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.278 AvgSSIM: 0.735 
+2024-06-17 13:13:29.027 | INFO     | __main__:main:283 - Index:116 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:29.027 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.434 AvgSSIM: 0.735 
+2024-06-17 13:13:29.076 | INFO     | __main__:main:283 - Index:117 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:29.076 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.586 AvgSSIM: 0.735 
+2024-06-17 13:13:29.129 | INFO     | __main__:main:283 - Index:118 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.752 
+2024-06-17 13:13:29.130 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.772 AvgSSIM: 0.736 
+2024-06-17 13:13:29.180 | INFO     | __main__:main:283 - Index:119 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:29.180 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.918 AvgSSIM: 0.736 
+2024-06-17 13:13:29.231 | INFO     | __main__:main:283 - Index:120 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.755 
+2024-06-17 13:13:29.231 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.098 AvgSSIM: 0.736 
+2024-06-17 13:13:29.277 | INFO     | __main__:main:283 - Index:121 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.757 
+2024-06-17 13:13:29.278 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.271 AvgSSIM: 0.736 
+2024-06-17 13:13:29.327 | INFO     | __main__:main:283 - Index:122 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.756 
+2024-06-17 13:13:29.328 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.405 AvgSSIM: 0.736 
+2024-06-17 13:13:29.373 | INFO     | __main__:main:283 - Index:123 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.755 
+2024-06-17 13:13:29.374 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.581 AvgSSIM: 0.736 
+2024-06-17 13:13:29.424 | INFO     | __main__:main:283 - Index:124 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.756 
+2024-06-17 13:13:29.424 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.754 AvgSSIM: 0.737 
+2024-06-17 13:13:29.476 | INFO     | __main__:main:283 - Index:125 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.756 
+2024-06-17 13:13:29.477 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.929 AvgSSIM: 0.737 
+2024-06-17 13:13:29.528 | INFO     | __main__:main:283 - Index:126 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.756 
+2024-06-17 13:13:29.529 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.100 AvgSSIM: 0.737 
+2024-06-17 13:13:29.575 | INFO     | __main__:main:283 - Index:127 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.761 
+2024-06-17 13:13:29.575 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.265 AvgSSIM: 0.737 
+2024-06-17 13:13:29.627 | INFO     | __main__:main:283 - Index:128 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.762 
+2024-06-17 13:13:29.628 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.425 AvgSSIM: 0.737 
+2024-06-17 13:13:29.680 | INFO     | __main__:main:283 - Index:129 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.763 
+2024-06-17 13:13:29.681 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.577 AvgSSIM: 0.737 
+2024-06-17 13:13:29.732 | INFO     | __main__:main:283 - Index:130 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.764 
+2024-06-17 13:13:29.732 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.738 AvgSSIM: 0.738 
+2024-06-17 13:13:29.781 | INFO     | __main__:main:283 - Index:131 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.760 
+2024-06-17 13:13:29.782 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.891 AvgSSIM: 0.738 
+2024-06-17 13:13:29.827 | INFO     | __main__:main:283 - Index:132 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.759 
+2024-06-17 13:13:29.827 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.045 AvgSSIM: 0.738 
+2024-06-17 13:13:29.871 | INFO     | __main__:main:283 - Index:133 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:29.872 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.159 AvgSSIM: 0.738 
+2024-06-17 13:13:29.917 | INFO     | __main__:main:283 - Index:134 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:29.918 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.312 AvgSSIM: 0.738 
+2024-06-17 13:13:29.968 | INFO     | __main__:main:283 - Index:135 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.746 
+2024-06-17 13:13:29.969 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.433 AvgSSIM: 0.738 
+2024-06-17 13:13:30.014 | INFO     | __main__:main:283 - Index:136 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.743 
+2024-06-17 13:13:30.014 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.553 AvgSSIM: 0.738 
+2024-06-17 13:13:30.328 | INFO     | __main__:tog_vanishing:162 - compute_loss 0.002655 
+2024-06-17 13:13:30.422 | INFO     | __main__:main:283 - Index:137 LSucc:1 TSucc:1 Single_Time:0.356 Query:3 SSIM: 0.768 
+2024-06-17 13:13:30.422 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.395 AvgSSIM: 0.738 
+2024-06-17 13:13:30.478 | INFO     | __main__:main:283 - Index:138 LSucc:1 TSucc:1 Single_Time:0.007 Query:1 SSIM: 0.741 
+2024-06-17 13:13:30.479 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.622 AvgSSIM: 0.738 
+2024-06-17 13:13:30.526 | INFO     | __main__:main:283 - Index:139 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.741 
+2024-06-17 13:13:30.527 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.874 AvgSSIM: 0.738 
+2024-06-17 13:13:30.576 | INFO     | __main__:main:283 - Index:140 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.738 
+2024-06-17 13:13:30.577 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:107.128 AvgSSIM: 0.738 
+2024-06-17 13:13:30.623 | INFO     | __main__:tog_vanishing:162 - compute_loss 0.003322 
+2024-06-17 13:13:30.648 | INFO     | __main__:main:283 - Index:141 LSucc:1 TSucc:1 Single_Time:0.030 Query:3 SSIM: 0.763 
+2024-06-17 13:13:30.648 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:105.470 AvgSSIM: 0.739 
+2024-06-17 13:13:30.696 | INFO     | __main__:main:283 - Index:142 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.738 
+2024-06-17 13:13:30.697 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:105.760 AvgSSIM: 0.739 
+2024-06-17 13:13:30.746 | INFO     | __main__:main:283 - Index:143 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.738 
+2024-06-17 13:13:30.746 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.028 AvgSSIM: 0.739 
+2024-06-17 13:13:30.794 | INFO     | __main__:main:283 - Index:144 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.738 
+2024-06-17 13:13:30.794 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.287 AvgSSIM: 0.739 
+2024-06-17 13:13:30.844 | INFO     | __main__:main:283 - Index:145 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.739 
+2024-06-17 13:13:30.845 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.557 AvgSSIM: 0.739 
+2024-06-17 13:13:30.893 | INFO     | __main__:main:283 - Index:146 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.744 
+2024-06-17 13:13:30.894 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:106.827 AvgSSIM: 0.739 
+2024-06-17 13:13:30.938 | INFO     | __main__:main:283 - Index:147 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.747 
+2024-06-17 13:13:30.939 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:107.093 AvgSSIM: 0.739 
+2024-06-17 13:13:30.985 | INFO     | __main__:main:283 - Index:148 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.748 
+2024-06-17 13:13:30.986 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:107.342 AvgSSIM: 0.739 
+2024-06-17 13:13:31.034 | INFO     | __main__:main:283 - Index:149 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.748 
+2024-06-17 13:13:31.035 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:107.601 AvgSSIM: 0.739 
+2024-06-17 13:13:31.082 | INFO     | __main__:main:283 - Index:150 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.747 
+2024-06-17 13:13:31.082 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:107.854 AvgSSIM: 0.739 
+2024-06-17 13:13:31.127 | INFO     | __main__:main:283 - Index:151 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.746 
+2024-06-17 13:13:31.127 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:108.108 AvgSSIM: 0.739 
+2024-06-17 13:13:31.175 | INFO     | __main__:main:283 - Index:152 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.745 
+2024-06-17 13:13:31.176 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:108.361 AvgSSIM: 0.739 
+2024-06-17 13:13:31.224 | INFO     | __main__:main:283 - Index:153 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.747 
+2024-06-17 13:13:31.225 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:108.609 AvgSSIM: 0.739 
+2024-06-17 13:13:31.277 | INFO     | __main__:main:283 - Index:154 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.747 
+2024-06-17 13:13:31.277 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:108.856 AvgSSIM: 0.739 
+2024-06-17 13:13:31.326 | INFO     | __main__:main:283 - Index:155 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.752 
+2024-06-17 13:13:31.327 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:109.100 AvgSSIM: 0.739 
+2024-06-17 13:13:31.378 | INFO     | __main__:main:283 - Index:156 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.752 
+2024-06-17 13:13:31.379 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:109.345 AvgSSIM: 0.739 
+2024-06-17 13:13:31.428 | INFO     | __main__:main:283 - Index:157 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:31.428 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:109.587 AvgSSIM: 0.739 
+2024-06-17 13:13:31.480 | INFO     | __main__:main:283 - Index:158 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.752 
+2024-06-17 13:13:31.481 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:109.828 AvgSSIM: 0.739 
+2024-06-17 13:13:31.529 | INFO     | __main__:main:283 - Index:159 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:31.530 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:110.066 AvgSSIM: 0.740 
+2024-06-17 13:13:31.581 | INFO     | __main__:main:283 - Index:160 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.753 
+2024-06-17 13:13:31.582 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:110.302 AvgSSIM: 0.740 
+2024-06-17 13:13:31.631 | INFO     | __main__:main:283 - Index:161 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.754 
+2024-06-17 13:13:31.631 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:110.536 AvgSSIM: 0.740 
+2024-06-17 13:13:31.684 | INFO     | __main__:main:283 - Index:162 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.755 
+2024-06-17 13:13:31.684 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:110.755 AvgSSIM: 0.740 
+2024-06-17 13:13:31.738 | INFO     | __main__:main:283 - Index:163 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.756 
+2024-06-17 13:13:31.738 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:110.985 AvgSSIM: 0.740 
+2024-06-17 13:13:31.787 | INFO     | __main__:main:283 - Index:164 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.758 
+2024-06-17 13:13:31.787 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:111.210 AvgSSIM: 0.740 
+2024-06-17 13:13:31.836 | INFO     | __main__:main:283 - Index:165 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.758 
+2024-06-17 13:13:31.836 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:111.437 AvgSSIM: 0.740 
+2024-06-17 13:13:31.888 | INFO     | __main__:main:283 - Index:166 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.757 
+2024-06-17 13:13:31.889 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:111.665 AvgSSIM: 0.740 
+2024-06-17 13:13:31.938 | INFO     | __main__:main:283 - Index:167 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.754 
+2024-06-17 13:13:31.939 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:111.886 AvgSSIM: 0.740 
+2024-06-17 13:13:31.989 | INFO     | __main__:main:283 - Index:168 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.750 
+2024-06-17 13:13:31.990 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:112.109 AvgSSIM: 0.740 
+2024-06-17 13:13:32.036 | INFO     | __main__:main:283 - Index:169 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.744 
+2024-06-17 13:13:32.036 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:112.315 AvgSSIM: 0.740 
+2024-06-17 13:13:32.086 | INFO     | __main__:main:283 - Index:170 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.740 
+2024-06-17 13:13:32.087 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:112.537 AvgSSIM: 0.740 
+2024-06-17 13:13:32.138 | INFO     | __main__:main:283 - Index:171 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.741 
+2024-06-17 13:13:32.139 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:112.754 AvgSSIM: 0.740 
+2024-06-17 13:13:32.192 | INFO     | __main__:main:283 - Index:172 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.737 
+2024-06-17 13:13:32.193 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:112.956 AvgSSIM: 0.740 
+2024-06-17 13:13:32.246 | INFO     | __main__:main:283 - Index:173 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.735 
+2024-06-17 13:13:32.246 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:113.156 AvgSSIM: 0.740 
+2024-06-17 13:13:32.297 | INFO     | __main__:main:283 - Index:174 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.735 
+2024-06-17 13:13:32.298 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:113.354 AvgSSIM: 0.740 
+2024-06-17 13:13:32.348 | INFO     | __main__:main:283 - Index:175 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.734 
+2024-06-17 13:13:32.349 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:113.549 AvgSSIM: 0.740 
+2024-06-17 13:13:32.402 | INFO     | __main__:main:283 - Index:176 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.733 
+2024-06-17 13:13:32.403 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:113.746 AvgSSIM: 0.740 
+2024-06-17 13:13:32.455 | INFO     | __main__:main:283 - Index:177 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.729 
+2024-06-17 13:13:32.456 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:113.952 AvgSSIM: 0.740 
+2024-06-17 13:13:32.503 | INFO     | __main__:main:283 - Index:178 LSucc:1 TSucc:1 Single_Time:0.006 Query:1 SSIM: 0.731 
+2024-06-17 13:13:32.504 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:114.157 AvgSSIM: 0.740 
+2024-06-17 13:13:32.546 | INFO     | __main__:main:283 - Index:179 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.731 
+2024-06-17 13:13:32.547 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:114.502 AvgSSIM: 0.740 
+2024-06-17 13:13:32.584 | INFO     | __main__:main:283 - Index:180 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.734 
+2024-06-17 13:13:32.584 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:114.875 AvgSSIM: 0.740 
+2024-06-17 13:13:32.616 | INFO     | __main__:main:283 - Index:181 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:32.617 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:115.272 AvgSSIM: 0.740 
+2024-06-17 13:13:32.647 | INFO     | __main__:main:283 - Index:182 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:32.648 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:115.677 AvgSSIM: 0.740 
+2024-06-17 13:13:32.676 | INFO     | __main__:main:283 - Index:183 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:32.676 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:116.071 AvgSSIM: 0.740 
+2024-06-17 13:13:32.706 | INFO     | __main__:main:283 - Index:184 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:32.706 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:116.475 AvgSSIM: 0.740 
+2024-06-17 13:13:32.737 | INFO     | __main__:main:283 - Index:185 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:32.737 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:116.878 AvgSSIM: 0.740 
+2024-06-17 13:13:32.768 | INFO     | __main__:main:283 - Index:186 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:32.768 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.009 FPS:117.280 AvgSSIM: 0.740 
+2024-06-17 13:13:32.798 | INFO     | __main__:main:283 - Index:187 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:32.798 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:117.686 AvgSSIM: 0.739 
+2024-06-17 13:13:32.828 | INFO     | __main__:main:283 - Index:188 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:32.828 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:118.081 AvgSSIM: 0.739 
+2024-06-17 13:13:32.861 | INFO     | __main__:main:283 - Index:189 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:32.862 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:118.483 AvgSSIM: 0.739 
+2024-06-17 13:13:32.893 | INFO     | __main__:main:283 - Index:190 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.724 
+2024-06-17 13:13:32.893 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:118.882 AvgSSIM: 0.739 
+2024-06-17 13:13:32.923 | INFO     | __main__:main:283 - Index:191 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:32.923 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:119.280 AvgSSIM: 0.739 
+2024-06-17 13:13:32.954 | INFO     | __main__:main:283 - Index:192 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:32.954 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:119.679 AvgSSIM: 0.739 
+2024-06-17 13:13:32.984 | INFO     | __main__:main:283 - Index:193 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:32.985 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:120.073 AvgSSIM: 0.739 
+2024-06-17 13:13:33.016 | INFO     | __main__:main:283 - Index:194 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:33.016 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:120.470 AvgSSIM: 0.739 
+2024-06-17 13:13:33.046 | INFO     | __main__:main:283 - Index:195 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:33.046 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:120.864 AvgSSIM: 0.739 
+2024-06-17 13:13:33.076 | INFO     | __main__:main:283 - Index:196 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.744 
+2024-06-17 13:13:33.076 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:121.257 AvgSSIM: 0.739 
+2024-06-17 13:13:33.105 | INFO     | __main__:main:283 - Index:197 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:33.105 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:121.648 AvgSSIM: 0.739 
+2024-06-17 13:13:33.132 | INFO     | __main__:main:283 - Index:198 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:33.133 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:122.034 AvgSSIM: 0.739 
+2024-06-17 13:13:33.165 | INFO     | __main__:main:283 - Index:199 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:33.165 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:122.416 AvgSSIM: 0.739 
+2024-06-17 13:13:33.194 | INFO     | __main__:main:283 - Index:200 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.741 
+2024-06-17 13:13:33.195 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:122.802 AvgSSIM: 0.739 
+2024-06-17 13:13:33.224 | INFO     | __main__:main:283 - Index:201 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:33.224 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:123.182 AvgSSIM: 0.739 
+2024-06-17 13:13:33.257 | INFO     | __main__:main:283 - Index:202 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:33.258 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:123.566 AvgSSIM: 0.739 
+2024-06-17 13:13:33.287 | INFO     | __main__:main:283 - Index:203 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:33.288 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:123.947 AvgSSIM: 0.739 
+2024-06-17 13:13:33.318 | INFO     | __main__:main:283 - Index:204 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:33.319 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:124.325 AvgSSIM: 0.739 
+2024-06-17 13:13:33.347 | INFO     | __main__:main:283 - Index:205 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:33.348 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:124.703 AvgSSIM: 0.739 
+2024-06-17 13:13:33.378 | INFO     | __main__:main:283 - Index:206 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:33.379 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:125.075 AvgSSIM: 0.739 
+2024-06-17 13:13:33.407 | INFO     | __main__:main:283 - Index:207 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:33.408 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:125.439 AvgSSIM: 0.739 
+2024-06-17 13:13:33.439 | INFO     | __main__:main:283 - Index:208 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:33.439 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:125.799 AvgSSIM: 0.739 
+2024-06-17 13:13:33.470 | INFO     | __main__:main:283 - Index:209 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:33.471 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:126.157 AvgSSIM: 0.739 
+2024-06-17 13:13:33.502 | INFO     | __main__:main:283 - Index:210 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:33.503 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:126.516 AvgSSIM: 0.739 
+2024-06-17 13:13:33.534 | INFO     | __main__:main:283 - Index:211 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:33.534 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:126.878 AvgSSIM: 0.739 
+2024-06-17 13:13:33.563 | INFO     | __main__:main:283 - Index:212 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:33.563 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:127.245 AvgSSIM: 0.739 
+2024-06-17 13:13:33.591 | INFO     | __main__:main:283 - Index:213 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.712 
+2024-06-17 13:13:33.592 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:127.610 AvgSSIM: 0.739 
+2024-06-17 13:13:33.623 | INFO     | __main__:main:283 - Index:214 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.710 
+2024-06-17 13:13:33.623 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:127.960 AvgSSIM: 0.738 
+2024-06-17 13:13:33.653 | INFO     | __main__:main:283 - Index:215 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.710 
+2024-06-17 13:13:33.653 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:128.292 AvgSSIM: 0.738 
+2024-06-17 13:13:33.684 | INFO     | __main__:main:283 - Index:216 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.711 
+2024-06-17 13:13:33.684 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:128.653 AvgSSIM: 0.738 
+2024-06-17 13:13:33.716 | INFO     | __main__:main:283 - Index:217 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.716 
+2024-06-17 13:13:33.716 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:129.016 AvgSSIM: 0.738 
+2024-06-17 13:13:33.744 | INFO     | __main__:main:283 - Index:218 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.717 
+2024-06-17 13:13:33.745 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:129.370 AvgSSIM: 0.738 
+2024-06-17 13:13:33.775 | INFO     | __main__:main:283 - Index:219 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:33.775 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:129.720 AvgSSIM: 0.738 
+2024-06-17 13:13:33.807 | INFO     | __main__:main:283 - Index:220 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:33.808 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:130.062 AvgSSIM: 0.738 
+2024-06-17 13:13:33.837 | INFO     | __main__:main:283 - Index:221 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:33.838 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:130.421 AvgSSIM: 0.738 
+2024-06-17 13:13:33.867 | INFO     | __main__:main:283 - Index:222 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:33.868 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:130.771 AvgSSIM: 0.738 
+2024-06-17 13:13:33.898 | INFO     | __main__:main:283 - Index:223 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:33.899 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:131.127 AvgSSIM: 0.738 
+2024-06-17 13:13:33.930 | INFO     | __main__:main:283 - Index:224 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:33.931 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:131.481 AvgSSIM: 0.738 
+2024-06-17 13:13:33.959 | INFO     | __main__:main:283 - Index:225 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:33.960 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:131.810 AvgSSIM: 0.738 
+2024-06-17 13:13:33.992 | INFO     | __main__:main:283 - Index:226 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.742 
+2024-06-17 13:13:33.992 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:132.163 AvgSSIM: 0.738 
+2024-06-17 13:13:34.020 | INFO     | __main__:main:283 - Index:227 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.743 
+2024-06-17 13:13:34.021 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:132.512 AvgSSIM: 0.738 
+2024-06-17 13:13:34.054 | INFO     | __main__:main:283 - Index:228 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:34.054 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:132.862 AvgSSIM: 0.738 
+2024-06-17 13:13:34.086 | INFO     | __main__:main:283 - Index:229 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:34.086 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.008 FPS:133.208 AvgSSIM: 0.738 
+2024-06-17 13:13:34.116 | INFO     | __main__:main:283 - Index:230 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:34.117 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:133.553 AvgSSIM: 0.738 
+2024-06-17 13:13:34.145 | INFO     | __main__:main:283 - Index:231 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:34.145 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:133.895 AvgSSIM: 0.738 
+2024-06-17 13:13:34.175 | INFO     | __main__:main:283 - Index:232 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.752 
+2024-06-17 13:13:34.176 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:134.239 AvgSSIM: 0.738 
+2024-06-17 13:13:34.207 | INFO     | __main__:main:283 - Index:233 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:34.208 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:134.562 AvgSSIM: 0.738 
+2024-06-17 13:13:34.240 | INFO     | __main__:main:283 - Index:234 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:34.240 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:134.873 AvgSSIM: 0.738 
+2024-06-17 13:13:34.270 | INFO     | __main__:main:283 - Index:235 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:34.270 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:135.213 AvgSSIM: 0.738 
+2024-06-17 13:13:34.302 | INFO     | __main__:main:283 - Index:236 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:34.302 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:135.553 AvgSSIM: 0.738 
+2024-06-17 13:13:34.333 | INFO     | __main__:main:283 - Index:237 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:34.334 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:135.888 AvgSSIM: 0.738 
+2024-06-17 13:13:34.363 | INFO     | __main__:main:283 - Index:238 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:34.363 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:136.218 AvgSSIM: 0.738 
+2024-06-17 13:13:34.394 | INFO     | __main__:main:283 - Index:239 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:34.394 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:136.526 AvgSSIM: 0.738 
+2024-06-17 13:13:34.425 | INFO     | __main__:main:283 - Index:240 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:34.425 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:136.848 AvgSSIM: 0.738 
+2024-06-17 13:13:34.455 | INFO     | __main__:main:283 - Index:241 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:34.455 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:137.181 AvgSSIM: 0.738 
+2024-06-17 13:13:34.485 | INFO     | __main__:main:283 - Index:242 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:34.486 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:137.511 AvgSSIM: 0.738 
+2024-06-17 13:13:34.514 | INFO     | __main__:main:283 - Index:243 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.724 
+2024-06-17 13:13:34.514 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:137.838 AvgSSIM: 0.738 
+2024-06-17 13:13:34.544 | INFO     | __main__:main:283 - Index:244 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:34.544 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.169 AvgSSIM: 0.738 
+2024-06-17 13:13:34.571 | INFO     | __main__:main:283 - Index:245 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:34.571 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.494 AvgSSIM: 0.738 
+2024-06-17 13:13:34.598 | INFO     | __main__:main:283 - Index:246 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:34.599 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:138.822 AvgSSIM: 0.738 
+2024-06-17 13:13:34.627 | INFO     | __main__:main:283 - Index:247 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:34.627 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.133 AvgSSIM: 0.738 
+2024-06-17 13:13:34.655 | INFO     | __main__:main:283 - Index:248 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.719 
+2024-06-17 13:13:34.656 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.441 AvgSSIM: 0.738 
+2024-06-17 13:13:34.684 | INFO     | __main__:main:283 - Index:249 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:34.684 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:139.746 AvgSSIM: 0.738 
+2024-06-17 13:13:34.712 | INFO     | __main__:main:283 - Index:250 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:34.713 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.055 AvgSSIM: 0.738 
+2024-06-17 13:13:34.739 | INFO     | __main__:main:283 - Index:251 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:34.739 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.364 AvgSSIM: 0.737 
+2024-06-17 13:13:34.766 | INFO     | __main__:main:283 - Index:252 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:34.767 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.670 AvgSSIM: 0.737 
+2024-06-17 13:13:34.795 | INFO     | __main__:main:283 - Index:253 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:34.796 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:140.990 AvgSSIM: 0.737 
+2024-06-17 13:13:34.825 | INFO     | __main__:main:283 - Index:254 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:34.825 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.309 AvgSSIM: 0.737 
+2024-06-17 13:13:34.851 | INFO     | __main__:main:283 - Index:255 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:34.851 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.624 AvgSSIM: 0.737 
+2024-06-17 13:13:34.877 | INFO     | __main__:main:283 - Index:256 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:34.877 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:141.938 AvgSSIM: 0.737 
+2024-06-17 13:13:34.904 | INFO     | __main__:main:283 - Index:257 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:34.905 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.238 AvgSSIM: 0.737 
+2024-06-17 13:13:34.932 | INFO     | __main__:main:283 - Index:258 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:34.932 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.530 AvgSSIM: 0.737 
+2024-06-17 13:13:34.958 | INFO     | __main__:main:283 - Index:259 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:34.958 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:142.835 AvgSSIM: 0.737 
+2024-06-17 13:13:34.988 | INFO     | __main__:main:283 - Index:260 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:34.988 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.147 AvgSSIM: 0.737 
+2024-06-17 13:13:35.014 | INFO     | __main__:main:283 - Index:261 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:35.014 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.444 AvgSSIM: 0.737 
+2024-06-17 13:13:35.042 | INFO     | __main__:main:283 - Index:262 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:35.042 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:143.756 AvgSSIM: 0.737 
+2024-06-17 13:13:35.070 | INFO     | __main__:main:283 - Index:263 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:35.071 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.065 AvgSSIM: 0.737 
+2024-06-17 13:13:35.099 | INFO     | __main__:main:283 - Index:264 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:35.099 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.374 AvgSSIM: 0.737 
+2024-06-17 13:13:35.128 | INFO     | __main__:main:283 - Index:265 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:35.128 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.677 AvgSSIM: 0.737 
+2024-06-17 13:13:35.157 | INFO     | __main__:main:283 - Index:266 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:35.157 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:144.980 AvgSSIM: 0.737 
+2024-06-17 13:13:35.186 | INFO     | __main__:main:283 - Index:267 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:35.186 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.285 AvgSSIM: 0.737 
+2024-06-17 13:13:35.214 | INFO     | __main__:main:283 - Index:268 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:35.214 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.577 AvgSSIM: 0.737 
+2024-06-17 13:13:35.241 | INFO     | __main__:main:283 - Index:269 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:35.241 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:145.865 AvgSSIM: 0.737 
+2024-06-17 13:13:35.269 | INFO     | __main__:main:283 - Index:270 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:35.269 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:146.145 AvgSSIM: 0.737 
+2024-06-17 13:13:35.296 | INFO     | __main__:main:283 - Index:271 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:35.297 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:146.437 AvgSSIM: 0.737 
+2024-06-17 13:13:35.326 | INFO     | __main__:main:283 - Index:272 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:35.326 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:146.733 AvgSSIM: 0.737 
+2024-06-17 13:13:35.354 | INFO     | __main__:main:283 - Index:273 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:35.355 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:147.020 AvgSSIM: 0.737 
+2024-06-17 13:13:35.381 | INFO     | __main__:main:283 - Index:274 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:35.381 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:147.301 AvgSSIM: 0.737 
+2024-06-17 13:13:35.407 | INFO     | __main__:main:283 - Index:275 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:35.407 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:147.575 AvgSSIM: 0.737 
+2024-06-17 13:13:35.434 | INFO     | __main__:main:283 - Index:276 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:35.435 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:147.850 AvgSSIM: 0.737 
+2024-06-17 13:13:35.460 | INFO     | __main__:main:283 - Index:277 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:35.460 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:148.136 AvgSSIM: 0.737 
+2024-06-17 13:13:35.485 | INFO     | __main__:main:283 - Index:278 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:35.485 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:148.416 AvgSSIM: 0.737 
+2024-06-17 13:13:35.512 | INFO     | __main__:main:283 - Index:279 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:35.513 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:148.690 AvgSSIM: 0.737 
+2024-06-17 13:13:35.539 | INFO     | __main__:main:283 - Index:280 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:35.539 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:148.965 AvgSSIM: 0.736 
+2024-06-17 13:13:35.565 | INFO     | __main__:main:283 - Index:281 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:35.565 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:149.243 AvgSSIM: 0.736 
+2024-06-17 13:13:35.593 | INFO     | __main__:main:283 - Index:282 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.724 
+2024-06-17 13:13:35.593 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:149.513 AvgSSIM: 0.736 
+2024-06-17 13:13:35.620 | INFO     | __main__:main:283 - Index:283 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.724 
+2024-06-17 13:13:35.620 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:149.784 AvgSSIM: 0.736 
+2024-06-17 13:13:35.647 | INFO     | __main__:main:283 - Index:284 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:35.648 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:150.055 AvgSSIM: 0.736 
+2024-06-17 13:13:35.674 | INFO     | __main__:main:283 - Index:285 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.722 
+2024-06-17 13:13:35.674 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:150.301 AvgSSIM: 0.736 
+2024-06-17 13:13:35.702 | INFO     | __main__:main:283 - Index:286 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.717 
+2024-06-17 13:13:35.702 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:150.575 AvgSSIM: 0.736 
+2024-06-17 13:13:35.730 | INFO     | __main__:main:283 - Index:287 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.717 
+2024-06-17 13:13:35.730 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:150.841 AvgSSIM: 0.736 
+2024-06-17 13:13:35.758 | INFO     | __main__:main:283 - Index:288 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:35.758 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:151.110 AvgSSIM: 0.736 
+2024-06-17 13:13:35.785 | INFO     | __main__:main:283 - Index:289 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:35.785 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:151.380 AvgSSIM: 0.736 
+2024-06-17 13:13:35.812 | INFO     | __main__:main:283 - Index:290 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:35.812 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:151.667 AvgSSIM: 0.736 
+2024-06-17 13:13:35.841 | INFO     | __main__:main:283 - Index:291 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:35.841 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:151.951 AvgSSIM: 0.736 
+2024-06-17 13:13:35.868 | INFO     | __main__:main:283 - Index:292 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:35.868 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:152.222 AvgSSIM: 0.736 
+2024-06-17 13:13:35.895 | INFO     | __main__:main:283 - Index:293 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:35.895 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:152.495 AvgSSIM: 0.736 
+2024-06-17 13:13:35.922 | INFO     | __main__:main:283 - Index:294 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:35.923 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:152.766 AvgSSIM: 0.736 
+2024-06-17 13:13:35.951 | INFO     | __main__:main:283 - Index:295 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:35.951 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:153.047 AvgSSIM: 0.736 
+2024-06-17 13:13:35.978 | INFO     | __main__:main:283 - Index:296 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:35.978 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:153.325 AvgSSIM: 0.736 
+2024-06-17 13:13:36.006 | INFO     | __main__:main:283 - Index:297 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:36.006 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.007 FPS:153.594 AvgSSIM: 0.736 
+2024-06-17 13:13:36.033 | INFO     | __main__:main:283 - Index:298 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:36.034 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:153.868 AvgSSIM: 0.736 
+2024-06-17 13:13:36.062 | INFO     | __main__:main:283 - Index:299 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:36.063 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:154.142 AvgSSIM: 0.736 
+2024-06-17 13:13:36.089 | INFO     | __main__:main:283 - Index:300 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:36.089 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:154.405 AvgSSIM: 0.736 
+2024-06-17 13:13:36.118 | INFO     | __main__:main:283 - Index:301 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:36.119 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:154.680 AvgSSIM: 0.736 
+2024-06-17 13:13:36.146 | INFO     | __main__:main:283 - Index:302 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:36.147 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:154.953 AvgSSIM: 0.736 
+2024-06-17 13:13:36.174 | INFO     | __main__:main:283 - Index:303 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:36.174 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:155.212 AvgSSIM: 0.736 
+2024-06-17 13:13:36.203 | INFO     | __main__:main:283 - Index:304 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:36.203 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:155.484 AvgSSIM: 0.736 
+2024-06-17 13:13:36.232 | INFO     | __main__:main:283 - Index:305 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:36.232 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:155.754 AvgSSIM: 0.736 
+2024-06-17 13:13:36.262 | INFO     | __main__:main:283 - Index:306 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:36.262 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:156.023 AvgSSIM: 0.736 
+2024-06-17 13:13:36.288 | INFO     | __main__:main:283 - Index:307 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:36.288 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:156.292 AvgSSIM: 0.736 
+2024-06-17 13:13:36.321 | INFO     | __main__:main:283 - Index:308 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:36.321 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:156.560 AvgSSIM: 0.736 
+2024-06-17 13:13:36.348 | INFO     | __main__:main:283 - Index:309 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.744 
+2024-06-17 13:13:36.349 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:156.823 AvgSSIM: 0.736 
+2024-06-17 13:13:36.376 | INFO     | __main__:main:283 - Index:310 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.745 
+2024-06-17 13:13:36.377 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:157.090 AvgSSIM: 0.736 
+2024-06-17 13:13:36.403 | INFO     | __main__:main:283 - Index:311 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.745 
+2024-06-17 13:13:36.404 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:157.351 AvgSSIM: 0.736 
+2024-06-17 13:13:36.431 | INFO     | __main__:main:283 - Index:312 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.742 
+2024-06-17 13:13:36.431 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:157.583 AvgSSIM: 0.736 
+2024-06-17 13:13:36.457 | INFO     | __main__:main:283 - Index:313 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:36.458 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:157.847 AvgSSIM: 0.736 
+2024-06-17 13:13:36.488 | INFO     | __main__:main:283 - Index:314 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:36.488 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:158.112 AvgSSIM: 0.736 
+2024-06-17 13:13:36.516 | INFO     | __main__:main:283 - Index:315 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:36.517 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:158.374 AvgSSIM: 0.736 
+2024-06-17 13:13:36.545 | INFO     | __main__:main:283 - Index:316 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:36.546 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:158.637 AvgSSIM: 0.736 
+2024-06-17 13:13:36.573 | INFO     | __main__:main:283 - Index:317 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:36.573 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:158.899 AvgSSIM: 0.736 
+2024-06-17 13:13:36.602 | INFO     | __main__:main:283 - Index:318 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:36.602 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:159.159 AvgSSIM: 0.736 
+2024-06-17 13:13:36.629 | INFO     | __main__:main:283 - Index:319 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:36.629 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:159.418 AvgSSIM: 0.736 
+2024-06-17 13:13:36.658 | INFO     | __main__:main:283 - Index:320 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:36.658 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:159.678 AvgSSIM: 0.736 
+2024-06-17 13:13:36.687 | INFO     | __main__:main:283 - Index:321 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:36.688 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:159.936 AvgSSIM: 0.736 
+2024-06-17 13:13:36.714 | INFO     | __main__:main:283 - Index:322 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:36.714 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:160.182 AvgSSIM: 0.736 
+2024-06-17 13:13:36.742 | INFO     | __main__:main:283 - Index:323 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:36.743 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:160.438 AvgSSIM: 0.736 
+2024-06-17 13:13:36.771 | INFO     | __main__:main:283 - Index:324 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:36.771 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:160.682 AvgSSIM: 0.736 
+2024-06-17 13:13:36.798 | INFO     | __main__:main:283 - Index:325 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:36.799 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:160.927 AvgSSIM: 0.736 
+2024-06-17 13:13:36.828 | INFO     | __main__:main:283 - Index:326 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:36.828 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:161.181 AvgSSIM: 0.736 
+2024-06-17 13:13:36.854 | INFO     | __main__:main:283 - Index:327 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:36.855 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:161.434 AvgSSIM: 0.736 
+2024-06-17 13:13:36.882 | INFO     | __main__:main:283 - Index:328 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:36.882 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:161.687 AvgSSIM: 0.736 
+2024-06-17 13:13:36.909 | INFO     | __main__:main:283 - Index:329 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:36.909 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:161.940 AvgSSIM: 0.736 
+2024-06-17 13:13:36.936 | INFO     | __main__:main:283 - Index:330 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.717 
+2024-06-17 13:13:36.936 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:162.194 AvgSSIM: 0.736 
+2024-06-17 13:13:36.964 | INFO     | __main__:main:283 - Index:331 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:36.964 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:162.435 AvgSSIM: 0.736 
+2024-06-17 13:13:36.993 | INFO     | __main__:main:283 - Index:332 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:36.993 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:162.648 AvgSSIM: 0.736 
+2024-06-17 13:13:37.020 | INFO     | __main__:main:283 - Index:333 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:37.021 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:162.899 AvgSSIM: 0.735 
+2024-06-17 13:13:37.050 | INFO     | __main__:main:283 - Index:334 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:37.050 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:163.148 AvgSSIM: 0.735 
+2024-06-17 13:13:37.077 | INFO     | __main__:main:283 - Index:335 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:37.077 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:163.397 AvgSSIM: 0.735 
+2024-06-17 13:13:37.106 | INFO     | __main__:main:283 - Index:336 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:37.106 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:163.640 AvgSSIM: 0.735 
+2024-06-17 13:13:37.132 | INFO     | __main__:main:283 - Index:337 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:37.133 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:163.885 AvgSSIM: 0.735 
+2024-06-17 13:13:37.162 | INFO     | __main__:main:283 - Index:338 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:37.162 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:164.130 AvgSSIM: 0.735 
+2024-06-17 13:13:37.191 | INFO     | __main__:main:283 - Index:339 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:37.191 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:164.375 AvgSSIM: 0.735 
+2024-06-17 13:13:37.220 | INFO     | __main__:main:283 - Index:340 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:37.220 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:164.618 AvgSSIM: 0.735 
+2024-06-17 13:13:37.249 | INFO     | __main__:main:283 - Index:341 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:37.249 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:164.859 AvgSSIM: 0.735 
+2024-06-17 13:13:37.277 | INFO     | __main__:main:283 - Index:342 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:37.278 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:165.103 AvgSSIM: 0.735 
+2024-06-17 13:13:37.306 | INFO     | __main__:main:283 - Index:343 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:37.306 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:165.340 AvgSSIM: 0.735 
+2024-06-17 13:13:37.335 | INFO     | __main__:main:283 - Index:344 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:37.335 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:165.577 AvgSSIM: 0.735 
+2024-06-17 13:13:37.360 | INFO     | __main__:main:283 - Index:345 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:37.361 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:165.816 AvgSSIM: 0.735 
+2024-06-17 13:13:37.392 | INFO     | __main__:main:283 - Index:346 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:37.392 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:166.055 AvgSSIM: 0.735 
+2024-06-17 13:13:37.418 | INFO     | __main__:main:283 - Index:347 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:37.419 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:166.293 AvgSSIM: 0.735 
+2024-06-17 13:13:37.449 | INFO     | __main__:main:283 - Index:348 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:37.449 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:166.532 AvgSSIM: 0.735 
+2024-06-17 13:13:37.476 | INFO     | __main__:main:283 - Index:349 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:37.477 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:166.769 AvgSSIM: 0.735 
+2024-06-17 13:13:37.503 | INFO     | __main__:main:283 - Index:350 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:37.504 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:167.006 AvgSSIM: 0.735 
+2024-06-17 13:13:37.532 | INFO     | __main__:main:283 - Index:351 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:37.533 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:167.241 AvgSSIM: 0.735 
+2024-06-17 13:13:37.561 | INFO     | __main__:main:283 - Index:352 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.561 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:167.472 AvgSSIM: 0.735 
+2024-06-17 13:13:37.587 | INFO     | __main__:main:283 - Index:353 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.588 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:167.696 AvgSSIM: 0.735 
+2024-06-17 13:13:37.616 | INFO     | __main__:main:283 - Index:354 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.616 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:167.912 AvgSSIM: 0.735 
+2024-06-17 13:13:37.643 | INFO     | __main__:main:283 - Index:355 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.644 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:168.128 AvgSSIM: 0.735 
+2024-06-17 13:13:37.672 | INFO     | __main__:main:283 - Index:356 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.672 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:168.345 AvgSSIM: 0.735 
+2024-06-17 13:13:37.699 | INFO     | __main__:main:283 - Index:357 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.699 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:168.578 AvgSSIM: 0.735 
+2024-06-17 13:13:37.728 | INFO     | __main__:main:283 - Index:358 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.729 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:168.810 AvgSSIM: 0.735 
+2024-06-17 13:13:37.756 | INFO     | __main__:main:283 - Index:359 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.756 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:169.039 AvgSSIM: 0.735 
+2024-06-17 13:13:37.785 | INFO     | __main__:main:283 - Index:360 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:37.785 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:169.268 AvgSSIM: 0.735 
+2024-06-17 13:13:37.814 | INFO     | __main__:main:283 - Index:361 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:37.814 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:169.495 AvgSSIM: 0.735 
+2024-06-17 13:13:37.842 | INFO     | __main__:main:283 - Index:362 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:37.843 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:169.714 AvgSSIM: 0.735 
+2024-06-17 13:13:37.868 | INFO     | __main__:main:283 - Index:363 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:37.868 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:169.932 AvgSSIM: 0.735 
+2024-06-17 13:13:37.897 | INFO     | __main__:main:283 - Index:364 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:37.897 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:170.140 AvgSSIM: 0.735 
+2024-06-17 13:13:37.924 | INFO     | __main__:main:283 - Index:365 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:37.924 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:170.363 AvgSSIM: 0.735 
+2024-06-17 13:13:37.951 | INFO     | __main__:main:283 - Index:366 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:37.952 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:170.591 AvgSSIM: 0.735 
+2024-06-17 13:13:37.980 | INFO     | __main__:main:283 - Index:367 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:37.980 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:170.816 AvgSSIM: 0.735 
+2024-06-17 13:13:38.007 | INFO     | __main__:main:283 - Index:368 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.723 
+2024-06-17 13:13:38.007 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:171.037 AvgSSIM: 0.735 
+2024-06-17 13:13:38.036 | INFO     | __main__:main:283 - Index:369 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:38.036 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:171.262 AvgSSIM: 0.735 
+2024-06-17 13:13:38.063 | INFO     | __main__:main:283 - Index:370 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:38.063 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:171.484 AvgSSIM: 0.735 
+2024-06-17 13:13:38.092 | INFO     | __main__:main:283 - Index:371 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.719 
+2024-06-17 13:13:38.093 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:171.685 AvgSSIM: 0.735 
+2024-06-17 13:13:38.121 | INFO     | __main__:main:283 - Index:372 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.719 
+2024-06-17 13:13:38.122 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:171.907 AvgSSIM: 0.735 
+2024-06-17 13:13:38.148 | INFO     | __main__:main:283 - Index:373 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.719 
+2024-06-17 13:13:38.149 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:172.130 AvgSSIM: 0.735 
+2024-06-17 13:13:38.177 | INFO     | __main__:main:283 - Index:374 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.719 
+2024-06-17 13:13:38.177 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:172.351 AvgSSIM: 0.735 
+2024-06-17 13:13:38.204 | INFO     | __main__:main:283 - Index:375 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:38.204 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:172.571 AvgSSIM: 0.734 
+2024-06-17 13:13:38.233 | INFO     | __main__:main:283 - Index:376 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.720 
+2024-06-17 13:13:38.233 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:172.789 AvgSSIM: 0.734 
+2024-06-17 13:13:38.260 | INFO     | __main__:main:283 - Index:377 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.719 
+2024-06-17 13:13:38.261 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:173.004 AvgSSIM: 0.734 
+2024-06-17 13:13:38.289 | INFO     | __main__:main:283 - Index:378 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:38.289 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:173.212 AvgSSIM: 0.734 
+2024-06-17 13:13:38.316 | INFO     | __main__:main:283 - Index:379 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:38.317 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:173.432 AvgSSIM: 0.734 
+2024-06-17 13:13:38.344 | INFO     | __main__:main:283 - Index:380 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:38.345 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:173.642 AvgSSIM: 0.734 
+2024-06-17 13:13:38.372 | INFO     | __main__:main:283 - Index:381 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:38.372 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:173.855 AvgSSIM: 0.734 
+2024-06-17 13:13:38.401 | INFO     | __main__:main:283 - Index:382 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:38.402 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:174.041 AvgSSIM: 0.734 
+2024-06-17 13:13:38.431 | INFO     | __main__:main:283 - Index:383 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:38.431 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:174.259 AvgSSIM: 0.734 
+2024-06-17 13:13:38.458 | INFO     | __main__:main:283 - Index:384 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:38.458 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:174.475 AvgSSIM: 0.734 
+2024-06-17 13:13:38.487 | INFO     | __main__:main:283 - Index:385 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.758 
+2024-06-17 13:13:38.487 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:174.675 AvgSSIM: 0.734 
+2024-06-17 13:13:38.517 | INFO     | __main__:main:283 - Index:386 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.757 
+2024-06-17 13:13:38.517 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:174.858 AvgSSIM: 0.734 
+2024-06-17 13:13:38.545 | INFO     | __main__:main:283 - Index:387 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.757 
+2024-06-17 13:13:38.545 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:175.072 AvgSSIM: 0.734 
+2024-06-17 13:13:38.574 | INFO     | __main__:main:283 - Index:388 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.752 
+2024-06-17 13:13:38.574 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:175.272 AvgSSIM: 0.735 
+2024-06-17 13:13:38.601 | INFO     | __main__:main:283 - Index:389 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:38.601 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:175.475 AvgSSIM: 0.735 
+2024-06-17 13:13:38.629 | INFO     | __main__:main:283 - Index:390 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:38.629 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:175.678 AvgSSIM: 0.735 
+2024-06-17 13:13:38.655 | INFO     | __main__:main:283 - Index:391 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:38.655 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:175.889 AvgSSIM: 0.735 
+2024-06-17 13:13:38.685 | INFO     | __main__:main:283 - Index:392 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:38.685 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:176.079 AvgSSIM: 0.735 
+2024-06-17 13:13:38.712 | INFO     | __main__:main:283 - Index:393 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:38.712 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:176.287 AvgSSIM: 0.735 
+2024-06-17 13:13:38.741 | INFO     | __main__:main:283 - Index:394 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.752 
+2024-06-17 13:13:38.741 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:176.475 AvgSSIM: 0.735 
+2024-06-17 13:13:38.770 | INFO     | __main__:main:283 - Index:395 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:38.770 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:176.683 AvgSSIM: 0.735 
+2024-06-17 13:13:38.799 | INFO     | __main__:main:283 - Index:396 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.754 
+2024-06-17 13:13:38.799 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:176.883 AvgSSIM: 0.735 
+2024-06-17 13:13:38.828 | INFO     | __main__:main:283 - Index:397 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:38.828 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:177.091 AvgSSIM: 0.735 
+2024-06-17 13:13:38.854 | INFO     | __main__:main:283 - Index:398 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.754 
+2024-06-17 13:13:38.855 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:177.283 AvgSSIM: 0.735 
+2024-06-17 13:13:38.882 | INFO     | __main__:main:283 - Index:399 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.754 
+2024-06-17 13:13:38.882 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:177.483 AvgSSIM: 0.735 
+2024-06-17 13:13:38.911 | INFO     | __main__:main:283 - Index:400 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.754 
+2024-06-17 13:13:38.911 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:177.687 AvgSSIM: 0.735 
+2024-06-17 13:13:38.938 | INFO     | __main__:main:283 - Index:401 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:38.938 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:177.892 AvgSSIM: 0.735 
+2024-06-17 13:13:38.966 | INFO     | __main__:main:283 - Index:402 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:38.967 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:178.098 AvgSSIM: 0.735 
+2024-06-17 13:13:38.995 | INFO     | __main__:main:283 - Index:403 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:38.995 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:178.301 AvgSSIM: 0.735 
+2024-06-17 13:13:39.023 | INFO     | __main__:main:283 - Index:404 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:39.024 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:178.504 AvgSSIM: 0.735 
+2024-06-17 13:13:39.049 | INFO     | __main__:main:283 - Index:405 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:39.050 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:178.699 AvgSSIM: 0.735 
+2024-06-17 13:13:39.077 | INFO     | __main__:main:283 - Index:406 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:39.077 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:178.895 AvgSSIM: 0.735 
+2024-06-17 13:13:39.107 | INFO     | __main__:main:283 - Index:407 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.754 
+2024-06-17 13:13:39.107 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:179.100 AvgSSIM: 0.735 
+2024-06-17 13:13:39.135 | INFO     | __main__:main:283 - Index:408 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.753 
+2024-06-17 13:13:39.136 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:179.296 AvgSSIM: 0.735 
+2024-06-17 13:13:39.162 | INFO     | __main__:main:283 - Index:409 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.754 
+2024-06-17 13:13:39.162 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:179.487 AvgSSIM: 0.735 
+2024-06-17 13:13:39.190 | INFO     | __main__:main:283 - Index:410 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.755 
+2024-06-17 13:13:39.191 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:179.690 AvgSSIM: 0.735 
+2024-06-17 13:13:39.218 | INFO     | __main__:main:283 - Index:411 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.754 
+2024-06-17 13:13:39.219 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:179.885 AvgSSIM: 0.736 
+2024-06-17 13:13:39.245 | INFO     | __main__:main:283 - Index:412 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:39.245 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:180.080 AvgSSIM: 0.736 
+2024-06-17 13:13:39.272 | INFO     | __main__:main:283 - Index:413 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:39.272 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:180.278 AvgSSIM: 0.736 
+2024-06-17 13:13:39.300 | INFO     | __main__:main:283 - Index:414 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.745 
+2024-06-17 13:13:39.300 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:180.471 AvgSSIM: 0.736 
+2024-06-17 13:13:39.329 | INFO     | __main__:main:283 - Index:415 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.744 
+2024-06-17 13:13:39.329 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:180.669 AvgSSIM: 0.736 
+2024-06-17 13:13:39.356 | INFO     | __main__:main:283 - Index:416 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.743 
+2024-06-17 13:13:39.356 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:180.864 AvgSSIM: 0.736 
+2024-06-17 13:13:39.382 | INFO     | __main__:main:283 - Index:417 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.743 
+2024-06-17 13:13:39.382 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:181.055 AvgSSIM: 0.736 
+2024-06-17 13:13:39.411 | INFO     | __main__:main:283 - Index:418 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.742 
+2024-06-17 13:13:39.411 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:181.229 AvgSSIM: 0.736 
+2024-06-17 13:13:39.438 | INFO     | __main__:main:283 - Index:419 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.742 
+2024-06-17 13:13:39.438 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:181.385 AvgSSIM: 0.736 
+2024-06-17 13:13:39.463 | INFO     | __main__:main:283 - Index:420 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.743 
+2024-06-17 13:13:39.463 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:181.577 AvgSSIM: 0.736 
+2024-06-17 13:13:39.490 | INFO     | __main__:main:283 - Index:421 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.744 
+2024-06-17 13:13:39.490 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.006 FPS:181.776 AvgSSIM: 0.736 
+2024-06-17 13:13:39.519 | INFO     | __main__:main:283 - Index:422 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.745 
+2024-06-17 13:13:39.520 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:181.936 AvgSSIM: 0.736 
+2024-06-17 13:13:39.548 | INFO     | __main__:main:283 - Index:423 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:39.548 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:182.093 AvgSSIM: 0.736 
+2024-06-17 13:13:39.573 | INFO     | __main__:main:283 - Index:424 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:39.573 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:182.289 AvgSSIM: 0.736 
+2024-06-17 13:13:39.599 | INFO     | __main__:main:283 - Index:425 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:39.599 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:182.485 AvgSSIM: 0.736 
+2024-06-17 13:13:39.628 | INFO     | __main__:main:283 - Index:426 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:39.628 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:182.673 AvgSSIM: 0.736 
+2024-06-17 13:13:39.656 | INFO     | __main__:main:283 - Index:427 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.744 
+2024-06-17 13:13:39.656 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:182.866 AvgSSIM: 0.736 
+2024-06-17 13:13:39.684 | INFO     | __main__:main:283 - Index:428 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.742 
+2024-06-17 13:13:39.684 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:183.046 AvgSSIM: 0.736 
+2024-06-17 13:13:39.710 | INFO     | __main__:main:283 - Index:429 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.741 
+2024-06-17 13:13:39.710 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:183.231 AvgSSIM: 0.736 
+2024-06-17 13:13:39.738 | INFO     | __main__:main:283 - Index:430 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:39.738 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:183.424 AvgSSIM: 0.736 
+2024-06-17 13:13:39.766 | INFO     | __main__:main:283 - Index:431 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:39.766 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:183.615 AvgSSIM: 0.736 
+2024-06-17 13:13:39.795 | INFO     | __main__:main:283 - Index:432 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:39.795 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:183.798 AvgSSIM: 0.736 
+2024-06-17 13:13:39.822 | INFO     | __main__:main:283 - Index:433 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:39.822 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:183.964 AvgSSIM: 0.736 
+2024-06-17 13:13:39.846 | INFO     | __main__:main:283 - Index:434 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:39.847 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:184.154 AvgSSIM: 0.736 
+2024-06-17 13:13:39.872 | INFO     | __main__:main:283 - Index:435 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:39.872 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:184.347 AvgSSIM: 0.736 
+2024-06-17 13:13:39.897 | INFO     | __main__:main:283 - Index:436 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:39.898 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:184.536 AvgSSIM: 0.736 
+2024-06-17 13:13:39.924 | INFO     | __main__:main:283 - Index:437 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.741 
+2024-06-17 13:13:39.924 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:184.727 AvgSSIM: 0.736 
+2024-06-17 13:13:39.951 | INFO     | __main__:main:283 - Index:438 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.742 
+2024-06-17 13:13:39.951 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:184.916 AvgSSIM: 0.736 
+2024-06-17 13:13:39.978 | INFO     | __main__:main:283 - Index:439 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.742 
+2024-06-17 13:13:39.978 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:185.103 AvgSSIM: 0.736 
+2024-06-17 13:13:40.005 | INFO     | __main__:main:283 - Index:440 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.745 
+2024-06-17 13:13:40.005 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:185.291 AvgSSIM: 0.736 
+2024-06-17 13:13:40.034 | INFO     | __main__:main:283 - Index:441 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:40.034 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:185.479 AvgSSIM: 0.736 
+2024-06-17 13:13:40.062 | INFO     | __main__:main:283 - Index:442 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:40.062 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:185.667 AvgSSIM: 0.736 
+2024-06-17 13:13:40.088 | INFO     | __main__:main:283 - Index:443 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:40.088 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:185.853 AvgSSIM: 0.736 
+2024-06-17 13:13:40.117 | INFO     | __main__:main:283 - Index:444 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:40.117 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:186.039 AvgSSIM: 0.736 
+2024-06-17 13:13:40.144 | INFO     | __main__:main:283 - Index:445 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:40.145 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:186.224 AvgSSIM: 0.736 
+2024-06-17 13:13:40.172 | INFO     | __main__:main:283 - Index:446 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:40.173 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:186.410 AvgSSIM: 0.736 
+2024-06-17 13:13:40.199 | INFO     | __main__:main:283 - Index:447 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:40.199 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:186.587 AvgSSIM: 0.736 
+2024-06-17 13:13:40.229 | INFO     | __main__:main:283 - Index:448 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:40.229 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:186.739 AvgSSIM: 0.736 
+2024-06-17 13:13:40.257 | INFO     | __main__:main:283 - Index:449 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:40.258 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:186.888 AvgSSIM: 0.736 
+2024-06-17 13:13:40.286 | INFO     | __main__:main:283 - Index:450 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:40.286 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:187.072 AvgSSIM: 0.736 
+2024-06-17 13:13:40.312 | INFO     | __main__:main:283 - Index:451 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:40.313 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:187.247 AvgSSIM: 0.736 
+2024-06-17 13:13:40.341 | INFO     | __main__:main:283 - Index:452 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:40.341 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:187.423 AvgSSIM: 0.736 
+2024-06-17 13:13:40.369 | INFO     | __main__:main:283 - Index:453 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:40.369 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:187.603 AvgSSIM: 0.736 
+2024-06-17 13:13:40.395 | INFO     | __main__:main:283 - Index:454 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:40.396 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:187.784 AvgSSIM: 0.736 
+2024-06-17 13:13:40.424 | INFO     | __main__:main:283 - Index:455 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:40.424 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:187.932 AvgSSIM: 0.736 
+2024-06-17 13:13:40.450 | INFO     | __main__:main:283 - Index:456 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.745 
+2024-06-17 13:13:40.451 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:188.112 AvgSSIM: 0.736 
+2024-06-17 13:13:40.477 | INFO     | __main__:main:283 - Index:457 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.744 
+2024-06-17 13:13:40.477 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:188.293 AvgSSIM: 0.736 
+2024-06-17 13:13:40.505 | INFO     | __main__:main:283 - Index:458 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.743 
+2024-06-17 13:13:40.505 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:188.467 AvgSSIM: 0.736 
+2024-06-17 13:13:40.533 | INFO     | __main__:main:283 - Index:459 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.742 
+2024-06-17 13:13:40.534 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:188.596 AvgSSIM: 0.736 
+2024-06-17 13:13:40.561 | INFO     | __main__:main:283 - Index:460 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.741 
+2024-06-17 13:13:40.562 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:188.776 AvgSSIM: 0.736 
+2024-06-17 13:13:40.588 | INFO     | __main__:main:283 - Index:461 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:40.589 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:188.956 AvgSSIM: 0.736 
+2024-06-17 13:13:40.617 | INFO     | __main__:main:283 - Index:462 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:40.617 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:189.134 AvgSSIM: 0.736 
+2024-06-17 13:13:40.645 | INFO     | __main__:main:283 - Index:463 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:40.646 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:189.311 AvgSSIM: 0.736 
+2024-06-17 13:13:40.671 | INFO     | __main__:main:283 - Index:464 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:40.671 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:189.486 AvgSSIM: 0.736 
+2024-06-17 13:13:40.697 | INFO     | __main__:main:283 - Index:465 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:40.697 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:189.661 AvgSSIM: 0.736 
+2024-06-17 13:13:40.724 | INFO     | __main__:main:283 - Index:466 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:40.724 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:189.837 AvgSSIM: 0.736 
+2024-06-17 13:13:40.749 | INFO     | __main__:main:283 - Index:467 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:40.749 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:190.012 AvgSSIM: 0.736 
+2024-06-17 13:13:40.774 | INFO     | __main__:main:283 - Index:468 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:40.775 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:190.186 AvgSSIM: 0.736 
+2024-06-17 13:13:40.804 | INFO     | __main__:main:283 - Index:469 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:40.804 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:190.363 AvgSSIM: 0.736 
+2024-06-17 13:13:40.831 | INFO     | __main__:main:283 - Index:470 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:40.831 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:190.537 AvgSSIM: 0.736 
+2024-06-17 13:13:40.858 | INFO     | __main__:main:283 - Index:471 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:40.858 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:190.705 AvgSSIM: 0.736 
+2024-06-17 13:13:40.886 | INFO     | __main__:main:283 - Index:472 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.741 
+2024-06-17 13:13:40.887 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:190.879 AvgSSIM: 0.737 
+2024-06-17 13:13:40.914 | INFO     | __main__:main:283 - Index:473 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.743 
+2024-06-17 13:13:40.915 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:191.052 AvgSSIM: 0.737 
+2024-06-17 13:13:40.942 | INFO     | __main__:main:283 - Index:474 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.743 
+2024-06-17 13:13:40.943 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:191.224 AvgSSIM: 0.737 
+2024-06-17 13:13:40.971 | INFO     | __main__:main:283 - Index:475 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.744 
+2024-06-17 13:13:40.971 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:191.394 AvgSSIM: 0.737 
+2024-06-17 13:13:40.997 | INFO     | __main__:main:283 - Index:476 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:40.997 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:191.564 AvgSSIM: 0.737 
+2024-06-17 13:13:41.022 | INFO     | __main__:main:283 - Index:477 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:41.023 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:191.733 AvgSSIM: 0.737 
+2024-06-17 13:13:41.048 | INFO     | __main__:main:283 - Index:478 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:41.048 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:191.905 AvgSSIM: 0.737 
+2024-06-17 13:13:41.076 | INFO     | __main__:main:283 - Index:479 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.752 
+2024-06-17 13:13:41.077 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:192.045 AvgSSIM: 0.737 
+2024-06-17 13:13:41.105 | INFO     | __main__:main:283 - Index:480 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:41.105 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:192.216 AvgSSIM: 0.737 
+2024-06-17 13:13:41.131 | INFO     | __main__:main:283 - Index:481 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:41.132 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:192.379 AvgSSIM: 0.737 
+2024-06-17 13:13:41.159 | INFO     | __main__:main:283 - Index:482 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:41.159 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:192.542 AvgSSIM: 0.737 
+2024-06-17 13:13:41.189 | INFO     | __main__:main:283 - Index:483 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:41.189 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:192.681 AvgSSIM: 0.737 
+2024-06-17 13:13:41.216 | INFO     | __main__:main:283 - Index:484 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:41.216 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:192.841 AvgSSIM: 0.737 
+2024-06-17 13:13:41.243 | INFO     | __main__:main:283 - Index:485 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:41.243 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:192.995 AvgSSIM: 0.737 
+2024-06-17 13:13:41.271 | INFO     | __main__:main:283 - Index:486 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:41.271 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:193.163 AvgSSIM: 0.737 
+2024-06-17 13:13:41.300 | INFO     | __main__:main:283 - Index:487 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:41.300 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:193.323 AvgSSIM: 0.737 
+2024-06-17 13:13:41.327 | INFO     | __main__:main:283 - Index:488 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:41.327 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:193.488 AvgSSIM: 0.737 
+2024-06-17 13:13:41.355 | INFO     | __main__:main:283 - Index:489 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:41.355 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:193.654 AvgSSIM: 0.737 
+2024-06-17 13:13:41.383 | INFO     | __main__:main:283 - Index:490 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:41.383 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:193.812 AvgSSIM: 0.737 
+2024-06-17 13:13:41.410 | INFO     | __main__:main:283 - Index:491 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:41.410 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:193.976 AvgSSIM: 0.737 
+2024-06-17 13:13:41.438 | INFO     | __main__:main:283 - Index:492 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.749 
+2024-06-17 13:13:41.439 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:194.141 AvgSSIM: 0.737 
+2024-06-17 13:13:41.468 | INFO     | __main__:main:283 - Index:493 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.749 
+2024-06-17 13:13:41.468 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:194.256 AvgSSIM: 0.737 
+2024-06-17 13:13:41.496 | INFO     | __main__:main:283 - Index:494 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:41.496 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:194.413 AvgSSIM: 0.737 
+2024-06-17 13:13:41.524 | INFO     | __main__:main:283 - Index:495 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:41.524 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:194.576 AvgSSIM: 0.737 
+2024-06-17 13:13:41.551 | INFO     | __main__:main:283 - Index:496 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:41.552 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:194.736 AvgSSIM: 0.737 
+2024-06-17 13:13:41.579 | INFO     | __main__:main:283 - Index:497 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.749 
+2024-06-17 13:13:41.579 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:194.855 AvgSSIM: 0.737 
+2024-06-17 13:13:41.607 | INFO     | __main__:main:283 - Index:498 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.751 
+2024-06-17 13:13:41.607 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:195.017 AvgSSIM: 0.737 
+2024-06-17 13:13:41.636 | INFO     | __main__:main:283 - Index:499 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.750 
+2024-06-17 13:13:41.636 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:195.179 AvgSSIM: 0.737 
+2024-06-17 13:13:41.662 | INFO     | __main__:main:283 - Index:500 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.748 
+2024-06-17 13:13:41.663 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:195.339 AvgSSIM: 0.737 
+2024-06-17 13:13:41.691 | INFO     | __main__:main:283 - Index:501 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:41.691 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:195.500 AvgSSIM: 0.737 
+2024-06-17 13:13:41.718 | INFO     | __main__:main:283 - Index:502 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.747 
+2024-06-17 13:13:41.719 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:195.661 AvgSSIM: 0.737 
+2024-06-17 13:13:41.745 | INFO     | __main__:main:283 - Index:503 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:41.746 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:195.820 AvgSSIM: 0.737 
+2024-06-17 13:13:41.774 | INFO     | __main__:main:283 - Index:504 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.746 
+2024-06-17 13:13:41.774 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:195.982 AvgSSIM: 0.737 
+2024-06-17 13:13:41.801 | INFO     | __main__:main:283 - Index:505 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:41.802 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:196.141 AvgSSIM: 0.737 
+2024-06-17 13:13:41.831 | INFO     | __main__:main:283 - Index:506 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:41.831 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:196.270 AvgSSIM: 0.737 
+2024-06-17 13:13:41.858 | INFO     | __main__:main:283 - Index:507 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:41.858 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:196.428 AvgSSIM: 0.737 
+2024-06-17 13:13:41.886 | INFO     | __main__:main:283 - Index:508 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:41.886 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:196.588 AvgSSIM: 0.737 
+2024-06-17 13:13:41.912 | INFO     | __main__:main:283 - Index:509 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:41.912 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:196.747 AvgSSIM: 0.737 
+2024-06-17 13:13:41.940 | INFO     | __main__:main:283 - Index:510 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:41.940 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:196.905 AvgSSIM: 0.737 
+2024-06-17 13:13:41.968 | INFO     | __main__:main:283 - Index:511 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:41.969 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:197.061 AvgSSIM: 0.737 
+2024-06-17 13:13:41.995 | INFO     | __main__:main:283 - Index:512 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:41.995 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:197.217 AvgSSIM: 0.737 
+2024-06-17 13:13:42.024 | INFO     | __main__:main:283 - Index:513 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:42.024 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:197.373 AvgSSIM: 0.737 
+2024-06-17 13:13:42.052 | INFO     | __main__:main:283 - Index:514 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.741 
+2024-06-17 13:13:42.053 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:197.514 AvgSSIM: 0.737 
+2024-06-17 13:13:42.082 | INFO     | __main__:main:283 - Index:515 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:42.082 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:197.655 AvgSSIM: 0.737 
+2024-06-17 13:13:42.115 | INFO     | __main__:main:283 - Index:516 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.738 
+2024-06-17 13:13:42.115 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:197.795 AvgSSIM: 0.737 
+2024-06-17 13:13:42.146 | INFO     | __main__:main:283 - Index:517 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:42.146 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:197.935 AvgSSIM: 0.737 
+2024-06-17 13:13:42.177 | INFO     | __main__:main:283 - Index:518 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.733 
+2024-06-17 13:13:42.178 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.073 AvgSSIM: 0.737 
+2024-06-17 13:13:42.209 | INFO     | __main__:main:283 - Index:519 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:42.209 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.199 AvgSSIM: 0.737 
+2024-06-17 13:13:42.239 | INFO     | __main__:main:283 - Index:520 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:42.239 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.318 AvgSSIM: 0.737 
+2024-06-17 13:13:42.269 | INFO     | __main__:main:283 - Index:521 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.726 
+2024-06-17 13:13:42.270 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.446 AvgSSIM: 0.737 
+2024-06-17 13:13:42.301 | INFO     | __main__:main:283 - Index:522 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:42.302 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.585 AvgSSIM: 0.737 
+2024-06-17 13:13:42.331 | INFO     | __main__:main:283 - Index:523 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:42.331 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.721 AvgSSIM: 0.737 
+2024-06-17 13:13:42.361 | INFO     | __main__:main:283 - Index:524 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:42.361 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.846 AvgSSIM: 0.737 
+2024-06-17 13:13:42.392 | INFO     | __main__:main:283 - Index:525 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:42.392 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:198.970 AvgSSIM: 0.737 
+2024-06-17 13:13:42.420 | INFO     | __main__:main:283 - Index:526 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.730 
+2024-06-17 13:13:42.420 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:199.109 AvgSSIM: 0.737 
+2024-06-17 13:13:42.446 | INFO     | __main__:main:283 - Index:527 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.731 
+2024-06-17 13:13:42.447 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:199.260 AvgSSIM: 0.737 
+2024-06-17 13:13:42.474 | INFO     | __main__:main:283 - Index:528 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:42.474 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:199.417 AvgSSIM: 0.737 
+2024-06-17 13:13:42.503 | INFO     | __main__:main:283 - Index:529 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:42.503 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:199.564 AvgSSIM: 0.737 
+2024-06-17 13:13:42.530 | INFO     | __main__:main:283 - Index:530 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:42.531 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:199.702 AvgSSIM: 0.737 
+2024-06-17 13:13:42.558 | INFO     | __main__:main:283 - Index:531 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:42.559 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:199.855 AvgSSIM: 0.737 
+2024-06-17 13:13:42.585 | INFO     | __main__:main:283 - Index:532 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:42.585 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:200.008 AvgSSIM: 0.737 
+2024-06-17 13:13:42.611 | INFO     | __main__:main:283 - Index:533 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:42.611 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:200.160 AvgSSIM: 0.737 
+2024-06-17 13:13:42.637 | INFO     | __main__:main:283 - Index:534 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:42.637 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:200.312 AvgSSIM: 0.737 
+2024-06-17 13:13:42.664 | INFO     | __main__:main:283 - Index:535 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:42.665 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:200.431 AvgSSIM: 0.737 
+2024-06-17 13:13:42.692 | INFO     | __main__:main:283 - Index:536 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:42.693 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:200.569 AvgSSIM: 0.737 
+2024-06-17 13:13:42.718 | INFO     | __main__:main:283 - Index:537 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.732 
+2024-06-17 13:13:42.719 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:200.720 AvgSSIM: 0.737 
+2024-06-17 13:13:42.746 | INFO     | __main__:main:283 - Index:538 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.727 
+2024-06-17 13:13:42.746 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:200.873 AvgSSIM: 0.737 
+2024-06-17 13:13:42.772 | INFO     | __main__:main:283 - Index:539 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:42.772 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:201.024 AvgSSIM: 0.737 
+2024-06-17 13:13:42.800 | INFO     | __main__:main:283 - Index:540 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:42.800 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:201.173 AvgSSIM: 0.737 
+2024-06-17 13:13:42.827 | INFO     | __main__:main:283 - Index:541 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:42.827 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:201.323 AvgSSIM: 0.737 
+2024-06-17 13:13:42.854 | INFO     | __main__:main:283 - Index:542 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.717 
+2024-06-17 13:13:42.855 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:201.445 AvgSSIM: 0.737 
+2024-06-17 13:13:42.882 | INFO     | __main__:main:283 - Index:543 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.718 
+2024-06-17 13:13:42.882 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:201.576 AvgSSIM: 0.737 
+2024-06-17 13:13:42.909 | INFO     | __main__:main:283 - Index:544 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.718 
+2024-06-17 13:13:42.910 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:201.725 AvgSSIM: 0.737 
+2024-06-17 13:13:42.936 | INFO     | __main__:main:283 - Index:545 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.718 
+2024-06-17 13:13:42.936 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:201.874 AvgSSIM: 0.737 
+2024-06-17 13:13:42.963 | INFO     | __main__:main:283 - Index:546 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.718 
+2024-06-17 13:13:42.964 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:202.022 AvgSSIM: 0.737 
+2024-06-17 13:13:42.989 | INFO     | __main__:main:283 - Index:547 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.719 
+2024-06-17 13:13:42.990 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:202.168 AvgSSIM: 0.737 
+2024-06-17 13:13:43.017 | INFO     | __main__:main:283 - Index:548 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.721 
+2024-06-17 13:13:43.018 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:202.316 AvgSSIM: 0.737 
+2024-06-17 13:13:43.043 | INFO     | __main__:main:283 - Index:549 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.722 
+2024-06-17 13:13:43.044 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:202.461 AvgSSIM: 0.737 
+2024-06-17 13:13:43.071 | INFO     | __main__:main:283 - Index:550 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.725 
+2024-06-17 13:13:43.072 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:202.609 AvgSSIM: 0.737 
+2024-06-17 13:13:43.097 | INFO     | __main__:main:283 - Index:551 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.728 
+2024-06-17 13:13:43.098 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:202.755 AvgSSIM: 0.737 
+2024-06-17 13:13:43.125 | INFO     | __main__:main:283 - Index:552 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.729 
+2024-06-17 13:13:43.125 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:202.898 AvgSSIM: 0.737 
+2024-06-17 13:13:43.151 | INFO     | __main__:main:283 - Index:553 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.734 
+2024-06-17 13:13:43.151 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:203.044 AvgSSIM: 0.737 
+2024-06-17 13:13:43.179 | INFO     | __main__:main:283 - Index:554 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.179 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:203.189 AvgSSIM: 0.737 
+2024-06-17 13:13:43.205 | INFO     | __main__:main:283 - Index:555 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:43.205 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:203.334 AvgSSIM: 0.737 
+2024-06-17 13:13:43.233 | INFO     | __main__:main:283 - Index:556 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:43.233 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:203.480 AvgSSIM: 0.737 
+2024-06-17 13:13:43.261 | INFO     | __main__:main:283 - Index:557 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.740 
+2024-06-17 13:13:43.261 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:203.625 AvgSSIM: 0.737 
+2024-06-17 13:13:43.287 | INFO     | __main__:main:283 - Index:558 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.739 
+2024-06-17 13:13:43.287 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:203.770 AvgSSIM: 0.737 
+2024-06-17 13:13:43.314 | INFO     | __main__:main:283 - Index:559 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.737 
+2024-06-17 13:13:43.314 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:203.915 AvgSSIM: 0.737 
+2024-06-17 13:13:43.341 | INFO     | __main__:main:283 - Index:560 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.341 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:204.059 AvgSSIM: 0.737 
+2024-06-17 13:13:43.368 | INFO     | __main__:main:283 - Index:561 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.368 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:204.202 AvgSSIM: 0.737 
+2024-06-17 13:13:43.395 | INFO     | __main__:main:283 - Index:562 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.395 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:204.345 AvgSSIM: 0.737 
+2024-06-17 13:13:43.421 | INFO     | __main__:main:283 - Index:563 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.422 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:204.487 AvgSSIM: 0.737 
+2024-06-17 13:13:43.449 | INFO     | __main__:main:283 - Index:564 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.450 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:204.630 AvgSSIM: 0.737 
+2024-06-17 13:13:43.476 | INFO     | __main__:main:283 - Index:565 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.476 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:204.773 AvgSSIM: 0.737 
+2024-06-17 13:13:43.504 | INFO     | __main__:main:283 - Index:566 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.504 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:204.916 AvgSSIM: 0.737 
+2024-06-17 13:13:43.529 | INFO     | __main__:main:283 - Index:567 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.529 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.055 AvgSSIM: 0.737 
+2024-06-17 13:13:43.559 | INFO     | __main__:main:283 - Index:568 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.559 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.156 AvgSSIM: 0.737 
+2024-06-17 13:13:43.587 | INFO     | __main__:main:283 - Index:569 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.587 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.268 AvgSSIM: 0.737 
+2024-06-17 13:13:43.614 | INFO     | __main__:main:283 - Index:570 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.614 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.408 AvgSSIM: 0.737 
+2024-06-17 13:13:43.642 | INFO     | __main__:main:283 - Index:571 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.643 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.549 AvgSSIM: 0.737 
+2024-06-17 13:13:43.670 | INFO     | __main__:main:283 - Index:572 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.671 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.690 AvgSSIM: 0.737 
+2024-06-17 13:13:43.699 | INFO     | __main__:main:283 - Index:573 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.700 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.799 AvgSSIM: 0.737 
+2024-06-17 13:13:43.727 | INFO     | __main__:main:283 - Index:574 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.728 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:205.937 AvgSSIM: 0.737 
+2024-06-17 13:13:43.754 | INFO     | __main__:main:283 - Index:575 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.754 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.075 AvgSSIM: 0.737 
+2024-06-17 13:13:43.781 | INFO     | __main__:main:283 - Index:576 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.782 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.215 AvgSSIM: 0.737 
+2024-06-17 13:13:43.807 | INFO     | __main__:main:283 - Index:577 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.807 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.340 AvgSSIM: 0.737 
+2024-06-17 13:13:43.836 | INFO     | __main__:main:283 - Index:578 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.836 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.448 AvgSSIM: 0.737 
+2024-06-17 13:13:43.864 | INFO     | __main__:main:283 - Index:579 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.865 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.578 AvgSSIM: 0.737 
+2024-06-17 13:13:43.891 | INFO     | __main__:main:283 - Index:580 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.891 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.716 AvgSSIM: 0.737 
+2024-06-17 13:13:43.918 | INFO     | __main__:main:283 - Index:581 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:43.919 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.853 AvgSSIM: 0.737 
+2024-06-17 13:13:43.947 | INFO     | __main__:main:283 - Index:582 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.947 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:206.991 AvgSSIM: 0.737 
+2024-06-17 13:13:43.976 | INFO     | __main__:main:283 - Index:583 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:43.976 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:207.099 AvgSSIM: 0.737 
+2024-06-17 13:13:44.004 | INFO     | __main__:main:283 - Index:584 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.004 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:207.228 AvgSSIM: 0.737 
+2024-06-17 13:13:44.031 | INFO     | __main__:main:283 - Index:585 LSucc:1 TSucc:1 Single_Time:0.004 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.032 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:207.325 AvgSSIM: 0.737 
+2024-06-17 13:13:44.060 | INFO     | __main__:main:283 - Index:586 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.060 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:207.461 AvgSSIM: 0.737 
+2024-06-17 13:13:44.087 | INFO     | __main__:main:283 - Index:587 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.087 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:207.596 AvgSSIM: 0.737 
+2024-06-17 13:13:44.115 | INFO     | __main__:main:283 - Index:588 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.115 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:207.731 AvgSSIM: 0.737 
+2024-06-17 13:13:44.141 | INFO     | __main__:main:283 - Index:589 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.142 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:207.866 AvgSSIM: 0.737 
+2024-06-17 13:13:44.168 | INFO     | __main__:main:283 - Index:590 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.169 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.002 AvgSSIM: 0.737 
+2024-06-17 13:13:44.193 | INFO     | __main__:main:283 - Index:591 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.194 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.136 AvgSSIM: 0.737 
+2024-06-17 13:13:44.221 | INFO     | __main__:main:283 - Index:592 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.221 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.272 AvgSSIM: 0.737 
+2024-06-17 13:13:44.249 | INFO     | __main__:main:283 - Index:593 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.249 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.406 AvgSSIM: 0.737 
+2024-06-17 13:13:44.274 | INFO     | __main__:main:283 - Index:594 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.274 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.541 AvgSSIM: 0.737 
+2024-06-17 13:13:44.302 | INFO     | __main__:main:283 - Index:595 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.303 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.637 AvgSSIM: 0.737 
+2024-06-17 13:13:44.331 | INFO     | __main__:main:283 - Index:596 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.331 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.755 AvgSSIM: 0.737 
+2024-06-17 13:13:44.359 | INFO     | __main__:main:283 - Index:597 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.359 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:208.889 AvgSSIM: 0.737 
+2024-06-17 13:13:44.386 | INFO     | __main__:main:283 - Index:598 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.386 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.021 AvgSSIM: 0.737 
+2024-06-17 13:13:44.412 | INFO     | __main__:main:283 - Index:599 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:44.413 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.156 AvgSSIM: 0.737 
+2024-06-17 13:13:44.442 | INFO     | __main__:main:283 - Index:600 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.443 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.253 AvgSSIM: 0.737 
+2024-06-17 13:13:44.472 | INFO     | __main__:main:283 - Index:601 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:44.472 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.358 AvgSSIM: 0.737 
+2024-06-17 13:13:44.499 | INFO     | __main__:main:283 - Index:602 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.736 
+2024-06-17 13:13:44.499 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.483 AvgSSIM: 0.737 
+2024-06-17 13:13:44.528 | INFO     | __main__:main:283 - Index:603 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.528 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.614 AvgSSIM: 0.737 
+2024-06-17 13:13:44.556 | INFO     | __main__:main:283 - Index:604 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.556 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.745 AvgSSIM: 0.737 
+2024-06-17 13:13:44.582 | INFO     | __main__:main:283 - Index:605 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.583 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:209.876 AvgSSIM: 0.737 
+2024-06-17 13:13:44.609 | INFO     | __main__:main:283 - Index:606 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.610 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:210.007 AvgSSIM: 0.737 
+2024-06-17 13:13:44.635 | INFO     | __main__:main:283 - Index:607 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.636 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:210.138 AvgSSIM: 0.737 
+2024-06-17 13:13:44.663 | INFO     | __main__:main:283 - Index:608 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.664 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:210.269 AvgSSIM: 0.737 
+2024-06-17 13:13:44.691 | INFO     | __main__:main:283 - Index:609 LSucc:1 TSucc:1 Single_Time:0.003 Query:1 SSIM: 0.735 
+2024-06-17 13:13:44.691 | INFO     | __main__:main:285 - Total:610 DSR:1.000 AvgTime:0.005 FPS:210.372 AvgSSIM: 0.737 
+2024-06-17 13:13:44.734 | INFO     | __main__:main:299 - Creating Gif every 100 frames

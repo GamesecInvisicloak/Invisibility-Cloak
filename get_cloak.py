@@ -11,30 +11,52 @@ import argparse
 from pytorch_msssim import ssim
 import imageio
 
-parser = argparse.ArgumentParser(description='Invisibility Cloak')
-parser.add_argument('--game', default='cs2', type=str,
-                    help='Dataset')
+parser = argparse.ArgumentParser(
+    description='Invisibility Cloak',
+    formatter_class=argparse.RawTextHelpFormatter
+)
+# parser.add_argument('--game', default='cs2', type=str,
+#                     help='Choose dataset from cs2 or cf (default: cs2).')
 parser.add_argument('--n_iter', default=5, type=int,
-                    help='n_iter')
+                    help='The number of iterations (default: 5).')
 parser.add_argument('--lr', default=0.005, type=float,
-                    help='epsilon')
+                    help='Learning rate (default: 0.005).')
 parser.add_argument('--epsilon', default=8, type=int,
-                    help='attack strength')
+                    help='The L_infinity norm constraint, input value 8 represents 8/255 (default: 8).')
 parser.add_argument('--local_model', default='yolov5n', type=str, choices=['yolov5n','yolov5s','yolov5m'],
-                    help='local_model')
+                    help='Choose local proxy model (default: yolov5n).')
 parser.add_argument('--target_model', default='yolov5n', type=str, choices=['yolov5n','yolov5s','yolov5m'],
-                    help='target_model')
+                    help='Choose target cheating model to defend (default: yolov5n).')
 parser.add_argument('--gpu', default='0', type=str,
-                    help='device')
+                    help='GPU device to use for computation (default: "0").')
 parser.add_argument('--use_universal_cloak', default=1, type=int,
-                    help='global')
+                    help='Flag to determine whether to use Universal Cloak (default: 1). Set to 1 to use Universal Cloak, set to 0 to not use it.')
 parser.add_argument('--visualize_gif', default=0, type=int,
-                    help='visualize_gif') 
-parser.add_argument('--scenario', default='cover', type=str, 
-                    choices=['2people','back','cover','fire','flash','football',
-                    'halfbody','hited','jump','knife','op','props','reload','run',
-                    'side','smoke','stand','usingprop'],
-                    help='cs2 demo scenario')
+                    help='Flag to determine whether to generate a GIF (default: 0). Set to 1 to generate a GIF, set to 0 to not generate it.')
+parser.add_argument('--scenario', default='stand', type=str, 
+                    choices=['2people', 'back', 'cover', 'fire', 'flash', 'football',
+                             'halfbody', 'hited', 'jump', 'knife', 'op', 'props', 'reload',
+                             'run', 'side', 'smoke', 'stand', 'usingprop'],
+                    help='Choose a scenario for the cs2 demo. Options include:\n'
+                         '2people: Scenario with two people present.\n'
+                         'back: Scenario where the character is facing backwards.\n'
+                         'cover: Scenario where the character is behind cover.\n'
+                         'fire: Scenario where the character is firing a weapon.\n'
+                         'flash: Scenario involving a flash effect.\n'
+                         'football: Scenario with a football next to the character.\n'
+                         'halfbody: Scenario showing half of the character\'s body.\n'
+                         'hited: Scenario where the character is hit.\n'
+                         'jump: Scenario where the character is jumping.\n'
+                         'knife: Scenario where the character is holding a knife.\n'
+                         'op: Scenario where the character is holding a sniper.\n'
+                         'props: Scenario where the character is hurt by a prop.\n'
+                         'reload: Scenario where the character is reloading a weapon.\n'
+                         'run: Scenario where the character is running.\n'
+                         'side: Scenario showing a side view of the character.\n'
+                         'smoke: Scenario involving smoke.\n'
+                         'stand: Scenario where the character is standing.\n'
+                         'usingprop: Scenario where the character is using a prop.\n'
+                         '(default: stand).')
 
 args = parser.parse_args()
 device = 'cuda:' + args.gpu
@@ -43,12 +65,12 @@ BCElogits = torch.nn.BCEWithLogitsLoss()
 gt_conf = torch.zeros((1, 63000, 1),device=device)
 gt_conf_nano = torch.zeros((1, 21250),device=device)
 global_noise = None
-if args.game == 'cf':
-    global_noise_path = 'universal_cloak/cf/yolov5n_yolov5s_yolov5m/Best-Succ-0.9143-BS-16-LR-0.001.pt'
-elif args.game == 'cs2':
-    global_noise_path = 'universal_cloak/cs2/yolov5n_yolov5s_yolov5m/Best-Succ-0.84-BS-16-LR-0.001.pt'
+# if args.game == 'cf':
+#     global_noise_path = 'universal_cloak/cf/yolov5n_yolov5s_yolov5m/Best-Succ-0.9143-BS-16-LR-0.001.pt'
+# elif args.game == 'cs2':
+global_noise_path = 'universal_cloak/cs2/yolov5n_yolov5s_yolov5m/Best-Succ-0.84-BS-16-LR-0.001.pt'
 if args.use_universal_cloak == 1:
-    print("use_universal_cloak")
+    print("We are using the Universal Cloak.")
     global_noise = torch.load(global_noise_path).to(device)
 
 class FindNoise(torch.nn.Module):
@@ -183,43 +205,43 @@ def create_gif(demo_save_dir):
             imageio.mimsave(os.path.join(output_folder,f'{gif_num}-attack.gif'), attack_images, duration=frame_duration, loop=0)
 
 def main():
-
-    game = args.game
     n_iter = args.n_iter
-    epsilon = args.epsilon/255 
-    log_dir = os.path.join('result','log','{}'.format(game))
-    os.makedirs(log_dir,exist_ok=True)
-    log_file = '{}-localM_{}-targetM_{}-lr{}-eps{}-iter{}-universal{}.log'.format(game,args.local_model,args.target_model,args.lr,args.epsilon,args.n_iter,args.use_universal_cloak)
+    epsilon = args.epsilon / 255
+    log_dir = os.path.join('result', 'log', 'cs2')
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = 'cs2-localM_{}-targetM_{}-lr{}-eps{}-iter{}-universal{}.log'.format(
+        args.local_model, args.target_model, args.lr, args.epsilon, args.n_iter, args.use_universal_cloak
+    )
     # logger
-    with open(os.path.join(log_dir,log_file),'w') as log:
-        logger.add(os.path.join(log_dir,log_file))
+    with open(os.path.join(log_dir, log_file), 'w') as log:
+        logger.add(os.path.join(log_dir, log_file))
 
     scenario = 'dust2_' + args.scenario
     # Dataset 
-    data_loader = load_dataset('cs2_demo',1,scenario=scenario,demo=True)
+    data_loader = load_dataset('cs2_demo', 1, scenario=scenario, demo=True)
 
     # Local Proxy Model
     weights_path = 'pretrained_models/{}.pt'.format(args.local_model)
-    from models.common import DetectMultiBackend,AutoShape
-    model = DetectMultiBackend(weights_path,device=torch.device(device),fuse=True)
-    model = AutoShape(model)  
+    from models.common import DetectMultiBackend, AutoShape
+    model = DetectMultiBackend(weights_path, device=torch.device(device), fuse=True)
+    model = AutoShape(model)
 
     # Target Model
-    predict_model = torch.hub.load('./', 'custom','pretrained_models/{}.pt'.format(args.target_model),source='local').to(device)
+    predict_model = torch.hub.load('./', 'custom', 'pretrained_models/{}.pt'.format(args.target_model), source='local').to(device)
     predict_model.classes = 0
     predict_model.conf = 0.4
 
     # metrics
     succ_num = .0
     total_num = .0
-    fps= 0
+    fps = 0
     total_time = 0
     total_ssim = []
     total_query = []
 
     # Start
     logger.info("Attack Begin")
-    if not global_noise is None:
+    if global_noise is not None:
         logger.info("{}".format(global_noise_path))
     else:
         logger.info("No Global Noise")
@@ -229,54 +251,52 @@ def main():
     len_dataset = len(data_loader)
     #  Attack
     total = 0
-    demo_save_dir = os.path.join('result','visualization','cs2_demo',args.scenario)
-    os.makedirs(demo_save_dir,exist_ok=True)
-    for i,(img_path,_,_) in enumerate(data_loader):
-
+    demo_save_dir = os.path.join('result', 'visualization', 'cs2_demo', args.scenario)
+    os.makedirs(demo_save_dir, exist_ok=True)
+    for i, (img_path, _, _) in enumerate(data_loader):
         img = np.array(Image.open(img_path[0]), np.uint8)
-        img = torch.from_numpy(img.transpose(2,0,1)).unsqueeze(0)
+        img = torch.from_numpy(img.transpose(2, 0, 1)).unsqueeze(0)
         imgs = img.to(device, non_blocking=True).float() / 255
 
-        adv_imgs,k,local_suc,t = tog_vanishing(imgs,model,n_iter=n_iter,eps=epsilon,lr=args.lr)
+        adv_imgs, k, local_suc, t = tog_vanishing(imgs, model, n_iter=n_iter, eps=epsilon, lr=args.lr)
         total_time += t
-        
+
         target_succ = 0
         if 'yolov5' in args.target_model:
-            x = adv_imgs[0].detach().permute(1,2,0).cpu()*255
-            predict_results = predict_model(np.array(x),size=320)
+            x = adv_imgs[0].detach().permute(1, 2, 0).cpu() * 255
+            predict_results = predict_model(np.array(x), size=320)
             result = predict_results.xyxy[0].shape[0]
             if result == 0:
                 target_succ = 1
                 succ_num += 1.0
         elif 'yolov8' in args.target_model:
-            attack_results = predict_model.predict(source=adv_imgs,conf=0.4,verbose=False,classes=0)
+            attack_results = predict_model.predict(source=adv_imgs, conf=0.4, verbose=False, classes=0)
             if len(attack_results[0].boxes.conf) == 0:
                 target_succ = 1
-                succ_num += 1.0      
+                succ_num += 1.0
 
-        ssim_val = ssim( (imgs*255).cpu(), (adv_imgs*255).cpu(), data_range=255, size_average=False)   
-        total_ssim.append(ssim_val.item())    
+        ssim_val = ssim((imgs * 255).cpu(), (adv_imgs * 255).cpu(), data_range=255, size_average=False)
+        total_ssim.append(ssim_val.item())
         total_query.append(k)
         total_num += 1.0
         fps = total_num / total_time
         logger.info("Index:{} LSucc:{} TSucc:{} Single_Time:{:.3f} Query:{} SSIM: {:.3f} ".
-            format(i,local_suc,target_succ,t,k,ssim_val.item()))
+                    format(i, local_suc, target_succ, t, k, ssim_val.item()))
         logger.info("Total:{} DSR:{:.3f} AvgTime:{:.3f} FPS:{:.3f} AvgSSIM: {:.3f} ".
-            format(len_dataset,succ_num/total_num,total_time/total_num,fps,np.mean(total_ssim)))
+                    format(len_dataset, succ_num / total_num, total_time / total_num, fps, np.mean(total_ssim)))
 
         # visualize inter results
-        attack_file_name = os.path.join(demo_save_dir,'attack','{}'.format(i))
-        attack_x = adv_imgs[0].detach().permute(1,2,0).cpu()*255
-        attack_results = predict_model(np.array(attack_x),size=320)
-        attack_results.save(labels=True, save_dir=attack_file_name, exist_ok=True) 
-        clean_file_name = os.path.join(demo_save_dir,'gt','{}'.format(i))
-        clean_x = imgs[0].detach().permute(1,2,0).cpu()*255
-        clean_results = predict_model(np.array(clean_x),size=320)
-        clean_results.save(labels=True, save_dir=clean_file_name, exist_ok=True) 
-        
+        attack_file_name = os.path.join(demo_save_dir, 'attack', '{}'.format(i))
+        attack_x = adv_imgs[0].detach().permute(1, 2, 0).cpu() * 255
+        attack_results = predict_model(np.array(attack_x), size=320)
+        attack_results.save(labels=True, save_dir=attack_file_name, exist_ok=True)
+        clean_file_name = os.path.join(demo_save_dir, 'gt', '{}'.format(i))
+        clean_x = imgs[0].detach().permute(1, 2, 0).cpu() * 255
+        clean_results = predict_model(np.array(clean_x), size=320)
+        clean_results.save(labels=True, save_dir=clean_file_name, exist_ok=True)
 
     if args.visualize_gif == 1:
-        logger.info("Createing Gif every 100 frames")
+        logger.info("Creating Gif every 100 frames")
         create_gif(demo_save_dir)
 
 if __name__ == "__main__":
