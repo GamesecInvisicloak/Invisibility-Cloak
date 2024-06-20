@@ -44,11 +44,11 @@ Before you begin, ensure you have met the following requirements:
 
 ### Using Docker
 
-We provide a pre-configured Docker image file. Ensure you have Docker installed on your system.
+We provide a pre-configured Docker image file, ensure you have Docker installed on your system.
 
 1. **Load and run the Docker container:**
 
-   Download the Docker image file `invisicloak_configured.tar` and load it using the following command:
+   Download the Docker image file [invisicloak_configured.tar](https://drive.google.com/file/d/1FcUy_LG8ySqxaLJAb1_W_PWFeucLT1gA/view?usp=sharing) and load it using the following command:
 
    ```bash
    docker load -i invisicloak_configured.tar
