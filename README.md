@@ -1,4 +1,3 @@
-<!-- ![](assets/logo.png?v=1&type=image) -->
 <h2 style="text-align: center;">Invisibility Cloak: Proactive Defense Against Visual Game Cheating</h2>
 
 <br>
@@ -17,8 +16,6 @@ The University of Hong Kong
 <sup>*</sup>Equal Contribution
 <sup>†</sup>Corresponding author
 </div>
-
-<!-- ## 📢News -->
 
 ## 📝Abstract
 
@@ -44,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Using Docker
 
-We provide a pre-configured Docker image file, ensure you have Docker installed on your system.
+We provide a pre-configured Docker image file. Ensure you have Docker installed on your system.
 
 1. **Load and run the Docker container:**
 
@@ -60,7 +57,7 @@ We provide a pre-configured Docker image file, ensure you have Docker installed 
    docker run -it --rm --gpus all invisicloak:configured
    ```
 
-1. **Activate the conda environment:**
+2. **Activate the conda environment:**
 
    The Docker container already includes CUDA 12.5.0 and the *invisicloak* conda environment pre-installed. To activate the environment, run:
 
@@ -85,10 +82,11 @@ If you prefer not to use Docker, follow these steps to set up the environment ma
 
 ### Usage
 
-#### Get Cloaks for choosen demo scenario in CS2 game
+#### Get Cloaks for the chosen demo scenario in CS2:
+
 To generate cloaked samples for a chosen demo scenario in the CS2 game, use the following command:
 
-```
+```bash
 python get_cloak.py --scenario stand
 ```
 
@@ -96,7 +94,7 @@ The script will generate Cloaks and add them to the input scenario samples, crea
 
 If you want to visualize the GIF of the cloaked samples, use the following command:
 
-```
+```bash
 python get_cloak.py --scenario stand --visualize_gif 1
 ```
 
@@ -165,7 +163,7 @@ python get_cloak.py --scenario stand --visualize_gif 1
   - Default: `stand`
   - Type: `str`
 
-### 📁 Checking the Results
+## 📁 Checking the Results
 
 The results can be found in the `result` directory. The structure of the `result` directory is as follows:
 
@@ -190,5 +188,5 @@ The results can be found in the `result` directory. The structure of the `result
 
 - **log/cs2/logfile**: Contains logs of the experiments, including details of the defense performance against visual aimbots.
 - **visualization/cs2_demo/scenarios/attack**: Contains images showing the detection results by the target cheating model on samples protected by the Cloak.
-- **visualization/cs2_demo/scenarios/gif**: Contains generated GIFs that simulate actual dynamic game scenes with the Cloak protection.
-- **visualization/cs2_demo/scenarios/gt**: Contains images showing the detection results by the target cheating model on samples without the Cloak protection.
+- **visualization/cs2_demo/scenarios/gif**: Contains generated GIFs that simulate actual dynamic game scenes with Cloak protection.
+- **visualization/cs2_demo/scenarios/gt**: Contains images showing the detection results by the target cheating model on samples without Cloak protection.
