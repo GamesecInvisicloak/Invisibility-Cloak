@@ -39,6 +39,10 @@ Before you begin, ensure you have met the following requirements:
 * Conda (recommended) or Python virtual environment 
 * GPU with CUDA 12.5.0 support (required if using Docker) or other CUDA versions (if not using Docker)
 
+### Dataset
+
+The [dataset](https://drive.google.com/file/d/1MDqzO62xe4-qrpcOfdCEb5oBHq_Q783v/view?usp=sharing) used in this project is available for download. It includes images from all relevant scenes, along with a script to process the data.
+
 ### Using Docker
 
 We provide a pre-configured Docker image file. Ensure you have Docker installed on your system.
