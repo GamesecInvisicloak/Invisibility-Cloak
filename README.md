@@ -1,22 +1,5 @@
 <h2 style="text-align: center;">Invisibility Cloak: Proactive Defense Against Visual Game Cheating</h2>
 
-<br>
-<div align="center">
-Chenxin Sun<sup>*</sup>, Kai Ye<sup>*</sup>, Liangcai Su, Jiayi Zhang, Chenxiong Qian<sup>†</sup>
-</div>
-<div align="center">
-{roniny, brucejiayi}@connect.hku.hk, {yek21, sulc}@hku.hk, cqian@cs.hku.hk
-</div>
-
-<div align="center">
-The University of Hong Kong
-</div>
-<br>
-<div align="center">
-<sup>*</sup>Equal Contribution
-<sup>†</sup>Corresponding author
-</div>
-
 ## 📝Abstract
 
 The gaming industry has experienced remarkable innovation and rapid growth in recent years. However, this progress has been accompanied by a concerning increase in First-person Shooter game cheating, with aimbots being the most prevalent and harmful tool. Visual aimbots, in particular, utilize game visuals and integrated visual models to extract game information, providing cheaters with automatic shooting abilities. Unfortunately, existing anti-cheating methods have proven ineffective against visual aimbots. To combat visual aimbots, we introduce the first proactive defense framework against visual game cheating, called *Invisibility Cloak*. Our approach adds imperceptible perturbations to game visuals, making them unrecognizable to AI models. We conducted extensive experiments on popular games CrossFire (CF) and Counter-Strike 2 (CS2), and our results demonstrate that *Invisibility Cloak* achieves real-time re-rendering of high-quality game visuals while effectively impeding various mainstream visual cheating models. By deploying *Invisibility Cloak* online in both CF and CS2, we successfully eliminated almost all aiming and shooting behaviors associated with aimbots, significantly enhancing the gaming experience for legitimate players.
