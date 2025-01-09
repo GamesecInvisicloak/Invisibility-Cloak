@@ -25,7 +25,23 @@ The gaming industry has experienced remarkable innovation and rapid growth in re
 
 You can explore the demos of the Invisibility Cloak at https://inviscloak.github.io/.
 
-## 📘 Introduction
+## 📊Dataset
+
+The [dataset](https://drive.google.com/file/d/1MDqzO62xe4-qrpcOfdCEb5oBHq_Q783v/view?usp=sharing) used in this project is available for download. It includes images from all relevant scenes, along with a script to process the data.
+
+## 📖Citation
+
+If you find this benchmark helpful for your research, please cite our paper:
+```bib
+@inproceedings{sun2024invisibility,
+  title={Invisibility Cloak: Proactive Defense Against Visual Game Cheating},
+  author={Sun, Chenxin and Ye, Kai and Su, Liangcai and Zhang, Jiayi and Qian, Chenxiong},
+  booktitle={33rd USENIX Security Symposium (USENIX Security 24)},
+  pages={3045--3061},
+  year={2024}
+}
+
+## 📘Introduction
 
 The repository introduces the *Invisibility Cloak*, a project designed to create Cloaks that provide protection to game scene samples by adding adversarial noise. This artifact demonstrates a subset of the experimental data and samples described in the paper. While the same operations can be applied to CF, this artifact only showcases the demos and experiments related to CS2.
 
@@ -39,9 +55,6 @@ Before you begin, ensure you have met the following requirements:
 * Conda (recommended) or Python virtual environment 
 * GPU with CUDA 12.5.0 support (required if using Docker) or other CUDA versions (if not using Docker)
 
-### Dataset
-
-The [dataset](https://drive.google.com/file/d/1MDqzO62xe4-qrpcOfdCEb5oBHq_Q783v/view?usp=sharing) used in this project is available for download. It includes images from all relevant scenes, along with a script to process the data.
 
 ### Using Docker
 
@@ -167,7 +180,7 @@ python get_cloak.py --scenario stand --visualize_gif 1
   - Default: `stand`
   - Type: `str`
 
-## 📁 Checking the Results
+## 📁Checking the Results
 
 The results can be found in the `result` directory. The structure of the `result` directory is as follows:
 
